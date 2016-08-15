@@ -42,6 +42,7 @@ $direccion_actual = 1;
         <link rel="icon" href="<?=base_url()?>assets/img/procrastinator-favicon.png">
         <link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet" type="text/css"/>
+		<script src="<?=base_url()?>assets/js/pace.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container-fluid" id="header">
