@@ -1,6 +1,18 @@
-######################################
-# Tables for login and users related #
-######################################
+#
+# PROCRASTINATOR - STOP WASTING TIME
+#
+# this file create the SQL tables and relations
+# needed for the correct function of the program
+#
+# Tested only on MySQL
+#
+
+
+#
+#
+# Tables for login and users related
+#
+#
 
 DROP TABLE IF EXISTS `groups`;
 
@@ -98,9 +110,11 @@ CREATE TABLE `login_attempts` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-#####################################
-# Tables for procrastinator  things #
-#####################################
+#
+#
+# Tables for procrastinator  things
+#
+#
 
 DROP TABLE IF EXISTS `tabs`;
 
