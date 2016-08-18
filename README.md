@@ -1,3 +1,5 @@
+# USELESS / INUTIL
+
 # Procrastinator - WORK IN PROGRESS
 <b>Procrastinator</b> es una aplicación web autoalojable para gestionar listas de tareas y actividades por hacer.  
 Permite llevar un registro de tareas pendientes y realizadas, con soporte multiusuario, y clasificadas según categorías que los usuarios puede crear y gestionar.  
