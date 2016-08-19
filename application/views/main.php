@@ -14,6 +14,38 @@
 
 <div class="container">
     
+    <div id="botones" class="container raton-normal no-selec" style="padding-bottom: 20px;">
+        
+        <!-- botones para abrir los modals -->
+        
+        <!-- screen = xs -->
+        <div class="btn-group hidden-sm hidden-md hidden-lg">
+            <button type="button" class="btn-xs btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <button type="button" class="btn-xs btn-primary" data-toggle="modal" data-target="#tarea" style="margin-left: -4px;">Add Task</button>
+            <ul class="dropdown-menu raton-senala">
+                <li><a data-toggle="modal" data-target="#programada">A&ntilde;adir tarea programada</a></li>
+                <li><a data-toggle="modal" data-target="#periodica">A&ntilde;adir tarea peri&oacute;dica</a></li>
+            </ul>
+            <a href="<?=base_url('completed')?>"><button type="button" class="btn-xs btn-success">Completed Tasks</button></a>
+        </div>
+        
+        <!-- screen => sm -->
+        <div class="btn-group hidden-xs ">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tarea">Add Task</button>
+            <ul class="dropdown-menu raton-senala">
+                <li><a data-toggle="modal" data-target="#programada">A&ntilde;adir tarea programada</a></li>
+                <li><a data-toggle="modal" data-target="#periodica">A&ntilde;adir tarea peri&oacute;dica</a></li>
+            </ul>
+            <a href="<?=base_url('completed')?>"><button type="button" class="btn btn-success">Completed Tasks</button></a>
+        </div>
+        
+    </div>
+    
 <?php foreach ($tasks as $task) { ?>
     
     <div class="panel panel-default" class="well" id="<?=$task->id?>">
