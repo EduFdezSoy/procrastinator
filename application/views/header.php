@@ -1,31 +1,27 @@
 <?php
-
 /* 
- * The MIT License
- *
- * Copyright 2016 EduFdezSoy, (Eduardo Fernandez).
- *
- * @link https://twitter.com/EduFdezSoy
- * @mail edufdezsoy@gmail.com
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
+MIT License
+
+Copyright (c) 2016 Eduardo Fernández
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
 
 $direccion_actual = 1;
 
@@ -33,16 +29,17 @@ $direccion_actual = 1;
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="<?=base_url()?>assets/js/pace.min.js" type="text/javascript"></script>
+        <link href="<?=base_url()?>assets/css/pace.css" rel="stylesheet" type="text/css"/>
         <meta charset="ISO-8859-15">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Procrastinator</title>
         <meta name="description" content="Procrastinator - Stop wasting time">
         <meta name="author" content="Eduardo Fernandez">
-        <meta http-equiv="refresh" content="10"> <!-- Refresh every 15 minutes (900s) -->
+        <meta http-equiv="refresh" content="25"> <!-- Refresh every 15 minutes (900s) -->
         <link rel="icon" href="<?=base_url()?>assets/img/procrastinator-favicon.png">
         <link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet" type="text/css"/>
-		<script src="<?=base_url()?>assets/js/pace.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div class="container-fluid" id="header">
@@ -93,4 +90,3 @@ $direccion_actual = 1;
               </div>
             </nav>
         </div>
-        <div class="container-fluid" id="contenido">

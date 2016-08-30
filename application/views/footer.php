@@ -33,13 +33,11 @@
                 <p>&copy; 2016 Eduardo Fernández</p>
             </footer>
         </div>
-        <link href="styles/bootstrap.vertical-tabs.min.css" rel="stylesheet" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="<?=base_url()?>assets/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="<?=base_url()?>assets/js/main.js" type="text/javascript"></script>
-        <link href="styles/datetimepicker.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?=base_url()?>assets/css/datetimepicker.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?=base_url()?>assets/js/moments.min.js" type="text/javascript"></script>
         <script src="<?=base_url()?>assets/js/datetimepicker.min.js" type="text/javascript"></script>
-        <script src="<?=base_url()?>assets/js/bootbox.min.js" type="text/javascript"></script>
     </body>
 </html>
