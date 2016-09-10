@@ -23,7 +23,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-echo "looks like it work";
+
 ?>
 
 <?php if(isset($message)){ ?>
@@ -73,7 +73,7 @@ echo "looks like it work";
         </div>
         <div class="panel-footer raton-normal">
             <div class="row">
-                <div class="col-xs-9 col-md-10"  alt="<?=$task->first_name?>">
+                <div class="col-xs-9 col-md-10">
                     Por <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> el <?=$task->date?>
                 </div>
                 <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="margin-left: -25px;">

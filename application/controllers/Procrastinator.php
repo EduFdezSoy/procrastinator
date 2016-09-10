@@ -45,7 +45,30 @@ class Procrastinator extends CI_Controller {
                         $this->load->view('footer');
 		}
 	}
+        
+        public function completed()
+	{
 
+		if (!$this->ion_auth->logged_in())
+		{
+			// redirect them to the login page
+			redirect('auth/login', 'refresh');
+		}
+		else
+		{
+			// set the flash data error message if there is one
+			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
+                        
+                        // catch data from database
+                        $this->data['c_tasks'] = $this->pr_model->pr_completed_tasks();
+                        
+                        // load page and send data
+                        $this->load->view('header');
+                        $this->_render_page('completed', $this->data);
+                        $this->load->view('footer');
+		}
+	}
+        
 	// log the user in
 	public function login()
 	{
@@ -814,29 +837,5 @@ class Procrastinator extends CI_Controller {
 		$view_html = $this->load->view($view, $this->viewdata, $returnhtml);
 
 		if ($returnhtml) return $view_html;//This will return html on 3rd argument being true
-	}
-
-        public function completed()
-	{
-
-		if (!$this->ion_auth->logged_in())
-		{
-			// redirect them to the login page
-			redirect('auth/login', 'refresh');
-		}
-		else
-		{
-			// set the flash data error message if there is one
-			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-                        
-                        // catch data from database
-                        $this->data['tasks'] = $this->pr_model->pr_completed_tasks();
-                        
-                        // load page and send data
-                        $this->load->view('header');
-			$this->load->view('completed');
-                        $this->load->view('footer');
-		}
-	}
-        
+	}     
 }
