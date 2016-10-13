@@ -27,11 +27,6 @@
 
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One|Raleway:200';
 
-/* PACE */
-.pace {-webkit-pointer-events: none; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; user-select: none;}
-.pace-inactive {display: none;}
-.pace .pace-progress {background: #29d; position: fixed; z-index: 2000; top: 0; right: 100%; width: 100%; height: 2px;}
-
 /* ERROR.PHP */
 .error { color: red;}
 
@@ -43,7 +38,7 @@
 /* INDEX.PHP */
 .titulo {font-family: 'Fjalla One', sans-serif; font-size: 30px; color: #2196f3;}
 .subtitulo {font-family: 'Raleway', sans-serif; font-size: 15px; text-align:center; color: #2196f3;}
-.mensaje-alerta {position: fixed; top: 10%; z-index: 0;}
+.mensaje-alerta {position: fixed; top: 10%; z-index: 200;}
 #nu-ta {margin-right: 20px; /*margin-top: -20px;*/}
 .mensaje {color:green; position: fixed; top: 93%; right: 30px; z-index: 0;}
 .spoilermas {background-color: whitesmoke; position: fixed; top: 15%; left: 50%; transform: translate(-50%, 0); padding: 25px;}

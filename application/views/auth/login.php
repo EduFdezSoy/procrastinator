@@ -106,7 +106,7 @@ $btn_attrib = array(
                 <p>Made by <a target="blank" href="https://twitter.com/EduFdezSoy" class="nounderline">Eduardo Fern&aacute;ndez</a></p>
                 
                 <?php if(ENVIRONMENT !== 'production'){ ?>
-                    <d>Rendered in <strong>{elapsed_time}</strong> sec</p>
+                    <p>Rendered in <strong>{elapsed_time}</strong> sec</p>
                 <?php } ?>
                 
             </div>

@@ -1,4 +1,5 @@
 <?php
+
 /* 
 MIT License
 
@@ -23,9 +24,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-$direccion_actual = 1;
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
