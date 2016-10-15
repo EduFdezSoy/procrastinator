@@ -58,9 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array(
-    'database','email'
-);
+$autoload['libraries'] = array('database', 'session', 'email');
 
 /*
 | -------------------------------------------------------------------
@@ -91,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+$autoload['helper'] = array('url');
 
 /*
 | -------------------------------------------------------------------
@@ -105,9 +103,7 @@ $autoload['helper'] = array();
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array(
-    'ion_auth'
-);
+$autoload['config'] = array('ion_auth');
 
 /*
 | -------------------------------------------------------------------
