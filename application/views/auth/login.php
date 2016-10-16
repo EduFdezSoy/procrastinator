@@ -4,6 +4,7 @@
     <h1>PROCRASTINATOR</h1>
     <h2>STOP WASTING TIME</h2>
     <?php
+    echo $_SESSION['auth_message'];
     echo form_open();
     echo form_label('Email:','email').'<br />';
     echo form_error('email');
