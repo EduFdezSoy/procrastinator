@@ -16,7 +16,7 @@ class Auth extends PR_Controller {
 
     public function login()
     {
-        $this->data['title'] = "Login";
+        $this->data['title'] = 'Login';
 
         $this->form_validation->set_rules('email', 'Email', 'trim|required');
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
