@@ -2,7 +2,7 @@
 
 <div class="container">
     <h1>PROCRASTINATOR</h1>
-    <<h2>STOP WASTING TIME</h2>
+    <h2>STOP WASTING TIME</h2>
     <?php
     echo form_open();
     echo form_label('Email:','email').'<br />';

@@ -17,7 +17,7 @@ class Auth extends PR_Controller {
     public function login()
     {
         $this->data['title'] = "Login";
-        
+
         $this->form_validation->set_rules('email', 'Email', 'trim|required');
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
         if ($this->form_validation->run() === FALSE)
@@ -38,7 +38,7 @@ class Auth extends PR_Controller {
             {
                 $_SESSION['auth_message'] = $this->ion_auth->errors();
                 $this->session->mark_as_flash('auth_message');
-                redirect('user/login');
+                redirect('auth/login');
             }
         }
     }
