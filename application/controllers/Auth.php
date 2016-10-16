@@ -16,7 +16,8 @@ class Auth extends PR_Controller {
 
     public function login()
     {
-        echo 'Formulario de login y eso';
+        $this->data['message'] = 'aquí irá el login form';
+        $this->render('auth/login');
     }
 
     public function logout()
