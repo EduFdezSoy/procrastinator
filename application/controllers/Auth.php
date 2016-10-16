@@ -18,7 +18,7 @@ class Auth extends PR_Controller {
     {
         $this->data['title'] = 'Login';
 
-        $this->form_validation->set_rules('email', 'Email', 'trim|required');
+        $this->form_validation->set_rules('identity', 'Email', 'trim|required');
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
         if ($this->form_validation->run() === FALSE)
         {
@@ -27,10 +27,10 @@ class Auth extends PR_Controller {
         else
         {
             $remember = (bool) $this->input->post('remember');
-            $email = $this->input->post('email');
+            $identity = $this->input->post('identity');
             $password = $this->input->post('password');
             
-            if ($this->ion_auth->login($email, $password, $remember))
+            if ($this->ion_auth->login($identity, $password, $remember))
             {
                 redirect('dashboard');
             }

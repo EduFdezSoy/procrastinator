@@ -5,9 +5,9 @@
     <h2>STOP WASTING TIME</h2>
     <?php
     echo form_open();
-    echo form_label('Email:','email').'<br />';
-    echo form_error('email');
-    echo form_input('email').'<br />';
+    echo form_label('Email:','identity').'<br />';
+    echo form_error('identity');
+    echo form_input('identity').'<br />';
     echo form_label('Password:', 'password').'<br />';
     echo form_error('password');
     echo form_password('password').'<br />';
