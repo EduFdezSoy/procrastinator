@@ -27,7 +27,7 @@ class Auth extends PR_Controller {
         else
         {
             $remember = (bool) $this->input->post('remember');
-            $username = $this->input->post('email');
+            $email = $this->input->post('email');
             $password = $this->input->post('password');
             
             if ($this->ion_auth->login($email, $password, $remember))
