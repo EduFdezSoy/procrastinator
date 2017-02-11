@@ -67,6 +67,7 @@ a.nounderline:link { text-decoration:none; }
                 <div id="titulo-login"><?php echo strtoupper($heading); ?></div>
             </a>
         </div>
+        <br>
 	    <?php echo $message; ?>
 	</div>
 </body>
