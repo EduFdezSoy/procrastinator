@@ -7,8 +7,8 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 
 
 # Roadmap
-1- PHP que genera un XML o JSON (por decidir) con las tareas y sus datos
-2- Usar AJAX para llamar, leer y mostrar el archivo generado anteriormente
-3- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad
-4- Añadir CSS, añadir botones y menú también
-5- PHP para añadir y editar tareas
+1- PHP que genera un XML o JSON (por decidir) con las tareas y sus datos  
+2- Usar AJAX para llamar, leer y mostrar el archivo generado anteriormente  
+3- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
+4- Añadir CSS, añadir botones y menú también  
+5- PHP para añadir y editar tareas  
