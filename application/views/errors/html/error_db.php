@@ -56,13 +56,15 @@ p { margin: 12px 15px 12px 15px; }
 
 #titulo-login { font-family: 'Fjalla One', sans-serif; font-size: 60px; text-align:center; margin-bottom: 0px; margin-top: 25px; }
 
+a.nounderline:link { text-decoration:none; }
+
 </style>
 </head>
 <body>
 	<div id="container">
         <div class="raton-senala">
             <a href="#" class="nounderline">
-                <div id="titulo-login"><?php echo $heading; ?></div>
+                <div id="titulo-login"><?php echo strtoupper($heading); ?></div>
             </a>
         </div>
 	    <?php echo $message; ?>
