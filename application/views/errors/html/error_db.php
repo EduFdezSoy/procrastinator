@@ -35,6 +35,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <title>Procrastinator - Database Error</title>
 <style type="text/css">
 
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Raleway:200';
+
 ::selection { background-color: #E13300; color: white; }
 ::-moz-selection { background-color: #E13300; color: white; }
 
@@ -53,6 +55,7 @@ p { margin: 12px 15px 12px 15px; }
 .raton-senala { cursor:pointer; }
 
 #titulo-login { font-family: 'Fjalla One', sans-serif; font-size: 60px; text-align:center; margin-bottom: 0px; margin-top: 25px; }
+
 </style>
 </head>
 <body>
