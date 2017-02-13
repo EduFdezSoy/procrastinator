@@ -16,4 +16,7 @@ Añadir campo de prioridad a la base de datos, puede ser 0123, baja, media (por 
 5- PHP para añadir y editar tareas  
 6- Pagina de administración, usuarios existentes, administrar usuarios  
 7- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración
-  
+
+## Base de Datos
+<a href="http://imgur.com/MFqFZtH"><img src="http://i.imgur.com/MFqFZtH.png" title="Procrastinator database" /></a>
+Esquema de la base de datos [13/2/2017]
