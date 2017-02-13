@@ -150,8 +150,7 @@ $mobiles = array(
 	'wii'			=> 'Nintendo Wii',
 	'open web'		=> 'Open Web',
 	'openweb'		=> 'OpenWeb',
-        'One Plus'              => 'One Plus',
-    
+
 	// Operating Systems
 	'android'		=> 'Android',
 	'symbian'		=> 'Symbian',

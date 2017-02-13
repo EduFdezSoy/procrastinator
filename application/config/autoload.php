@@ -58,9 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array(
-    'database', 'session', 'ion_auth', 'email', 'form_validation'
-);
+$autoload['libraries'] = array('database', 'session', 'email', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
@@ -91,9 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array(
-    'url', 'form', 'cookie', 'date', 'language', 'string'
-);
+$autoload['helper'] = array('form', 'url', 'email');
 
 /*
 | -------------------------------------------------------------------
@@ -107,7 +103,7 @@ $autoload['helper'] = array(
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+$autoload['config'] = array('ion_auth');
 
 /*
 | -------------------------------------------------------------------
@@ -121,9 +117,7 @@ $autoload['config'] = array();
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
-$autoload['language'] = array(
-    'ion_auth'
-);
+$autoload['language'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -138,6 +132,4 @@ $autoload['language'] = array(
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array(
-    'pr_model'
-);
+$autoload['model'] = array('ion_auth_model');

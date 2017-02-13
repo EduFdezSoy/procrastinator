@@ -176,4 +176,14 @@ CREATE TABLE `completed_tasks` (
   CONSTRAINT `fk_completed_tasks_user_id` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+#
+# Table structure for table 'pr_sessions' for sessions
+#
 
+CREATE TABLE IF NOT EXISTS `pr_sessions` (
+`id` varchar(40) NOT NULL,
+`ip_address` varchar(45) NOT NULL,
+`timestamp` int(10) unsigned DEFAULT 0 NOT NULL,
+`data` blob NOT NULL,
+KEY `pr_sessions_timestamp` (`timestamp`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
