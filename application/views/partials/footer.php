@@ -1,3 +1,7 @@
+<?php
+// Copyright (c) 2016 - 2017, Eduardo Fernández
+?>
+
         <div class="container-fluid no-selec">
             <footer id="footer">
                 <p>&copy; 2016 - 2017, Eduardo Fernández</p>

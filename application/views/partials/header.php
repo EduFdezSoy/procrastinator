@@ -1,3 +1,7 @@
+<?php
+// Copyright (c) 2016 - 2017, Eduardo Fernández
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
