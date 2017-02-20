@@ -18,5 +18,5 @@ Añadir campo de prioridad a la base de datos, puede ser 0123, baja, media (por 
 7- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración
 
 ## Base de Datos
-<a href="http://imgur.com/MFqFZtH"><img src="http://i.imgur.com/MFqFZtH.png" title="Procrastinator database" /></a>
-Esquema de la base de datos [13/2/2017]
+<a href="http://storage5.static.itmages.com/i/17/0220/s_1487588452_6306748_2b6d404aa0.png"><img src="http://storage5.static.itmages.com/i/17/0220/s_1487588452_6306748_2b6d404aa0.png" title="Procrastinator database" /></a>
+Esquema de la base de datos [20/2/2017]
