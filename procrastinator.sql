@@ -147,6 +147,7 @@ CREATE TABLE `tasks` (
 	`task` varchar(500) NOT NULL,
 	`tab_id` int(11) unsigned NOT NULL DEFAULT '1',
 	`status` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `priority` tinyint(1) unsigned DEFAULT NULL,
 	`date` datetime NOT NULL,
 	`colour` char(6) NOT NULL DEFAULT 'FFFFFF',
 	`h_remaining` int(5) unsigned DEFAULT NULL,
