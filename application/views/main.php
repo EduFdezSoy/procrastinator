@@ -15,7 +15,7 @@ if (window.XMLHttpRequest) {
                 document.getElementById("taskslist").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","<?=base_url()?>index.php/prajax?f=1",true);
+        xmlhttp.open("GET","<?=base_url()?>index.php/prajax?f=2",true);
         xmlhttp.send();
 }, 2000);
 </script>
@@ -25,7 +25,7 @@ if (window.XMLHttpRequest) {
    var auto_refresh = setInterval(
       function ()
       {
-         $('#load_tweets').load('<?=base_url()?>index.php/prajax?f=1').fadeIn("slow");
+         $('#load_tweets').load('<?=base_url()?>index.php/prajax?f=3').fadeIn("slow");
       }, 1000); // refresh every 10000 milliseconds
 </script>
 
