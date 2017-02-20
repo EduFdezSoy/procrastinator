@@ -20,7 +20,7 @@ class Prajax extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->model('prajaxmo');
+		$this->load->model('prajaxmo.php');
 
 		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
 		$func = $_GET['f'];
@@ -30,7 +30,7 @@ class Prajax extends CI_Controller {
 		} elseif ($func===2) {
 			$this->data['completed_tasks'] = $this->prajaxmo->pr_tasks();
 		}
-		
+
 		$this->data['tasks'] = $this->prajaxmo->pr_tasks();
 		$this->load->view('welcome_message');
 
