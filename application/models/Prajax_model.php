@@ -3,7 +3,7 @@
 * Name:  Procrastinator Ajax Model
 *
 * Author:  Eduardo Fernandez
-* 		   edufdezsoy@gmail.com
+* 		   yo@edufdezsoy.es
 *	  	   @EduFdezSoy
 *
 *
