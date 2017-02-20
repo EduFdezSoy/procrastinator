@@ -17,7 +17,7 @@ if (window.XMLHttpRequest) {
         };
         xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f=1",true);
         xmlhttp.send();
-}, 3000);
+}, 10000);
 </script>
 
 <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.0/jquery.min.js"></script>
