@@ -10,13 +10,13 @@
 * Location: http://github.com/edufdezsoy/procrastinator
 */
 
-class Prajaxmo extends CI_Model
+class Prajax_model extends CI_Model
 {
     public function __construct()
     {
         parent::__construct();
     }
-    
+
 	public function pr_tasks()
 	{
            $this->db->select('tasks.id, tasks.task, tasks.date, tasks.colour, tasks.tab_id, u2.username, u2.first_name, u2.last_name, task.priority');
