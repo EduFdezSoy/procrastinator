@@ -5,12 +5,10 @@ Las tareas se pueden programar como atemporales, programadas, y como periódicas
 Para el alta de nuevos usuarios únicamente se necesita la dirección de email del nuevo usuario, permitiendo así al nuevo usuario rellenar sus datos y elegir él mismo la contraseña deseada. La aplicación también inlcluye un registro de los inicios de sesión fallidos
 Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSoy">EduFdezSoy</a> utilizando PHP y MySQL (del lado del servidor) además de otros lenguajes soportados por todos los navegadores modernos.
 
-## Notas importantes
-Añadir campo de prioridad a la base de datos, puede ser 0123, baja, media (por defecto, no se muestra), alta y urgente. Las urgentes se muestran en otra categoría, para enfatizar (?)
-
 ## Roadmap
-1- PHP que genera un XML o JSON (por decidir) con las tareas y sus datos  
-2- Usar AJAX para llamar, leer y mostrar el archivo generado anteriormente  
+<s>1- PHP que genera un XML o JSON (por decidir) con las tareas y sus datos</s>  
+<s>2- Usar AJAX para llamar, leer y mostrar el archivo generado anteriormente</s>  
+2.1- Limpiar codigo y comentar  
 3- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
 4- Añadir CSS, añadir botones y menú también  
 5- PHP para añadir y editar tareas  
