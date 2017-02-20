@@ -15,6 +15,24 @@
         <link rel="icon" href="<?=base_url()?>assets/img/procrastinator-favicon.png">
         <link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet" type="text/css"/>
+<script>
+setInterval(function(){
+if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("taskslist").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","<?=base_url()?>index.php/prajax?f=1",true);
+        xmlhttp.send();
+}, 2000);
+</script>
     </head>
     <body>
         <div class="container-fluid" id="header">
