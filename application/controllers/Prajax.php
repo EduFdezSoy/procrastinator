@@ -32,7 +32,7 @@ class Prajax extends CI_Controller {
 		}
 
 		$this->data['tasks'] = $this->prajax_model->pr_tasks();
-		$this->load->view('tasks');
+		$this->load->view('tasks', $this->data);
 
 	}
 }
