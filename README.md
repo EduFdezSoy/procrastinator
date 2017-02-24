@@ -14,6 +14,7 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 5- PHP para añadir y editar tareas  
 6- Pagina de administración, usuarios existentes, administrar usuarios  
 7- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
+8- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
 
 ## Base de Datos
 <a href="http://imgur.com/wYUNQaf"><img src="http://i.imgur.com/wYUNQaf.png" title="source: imgur.com" /></a>
