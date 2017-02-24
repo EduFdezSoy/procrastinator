@@ -22,6 +22,5 @@ class Prajax extends CI_Controller {
 			$this->data['completed_tasks'] = $this->prajax_model->pr_completed_tasks();
 			$this->load->view('tasks', $this->data);
 		}		
-
 	}
 }
