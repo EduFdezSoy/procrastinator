@@ -12,9 +12,14 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 3- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
 4- Añadir CSS, añadir botones y menú también  
 5- PHP para añadir y editar tareas  
-6- Pagina de administración, usuarios existentes, administrar usuarios  
-7- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
-8- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+6- Mostrar tareas completas  
+7- Pagina de administración, usuarios existentes, administrar usuarios  
+--- FIRST RELASE CANDIDATE ---  
+8- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
+9- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+10- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
+11- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
+11- Añadir tiempo empleado en realizar una tarea  
 
 ## Base de Datos
 <a href="http://imgur.com/wYUNQaf"><img src="http://i.imgur.com/wYUNQaf.png" title="source: imgur.com" /></a>
