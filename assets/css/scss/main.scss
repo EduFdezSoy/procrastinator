@@ -1,0 +1,238 @@
+/* 
+ * The MIT License
+ *
+ * Copyright (c) 2016 - 2017, Eduardo Fernández
+ *
+ * @link https://twitter.com/EduFdezSoy
+ * @mail yo@edufdezsoy.es
+ *
+ */
+
+@import 'bootstrap.min';
+@import 'datetimepicker.min';
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Raleway:200';
+
+/* ERROR.PHP */
+
+.error {
+    color: red;
+}
+
+/* HEADER.PHP */
+
+#header {
+    margin: 15px 0 0 0;
+}
+
+#contenido {
+    padding-top: 25px;
+}
+
+*::selection {
+    background: #9d53cc;
+    color: whitesmoke;
+}
+
+/* INDEX.PHP */
+.titulo {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    color: #2196f3;
+}
+
+.subtitulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align:center;
+    color: #2196f3;
+}
+
+.mensaje-alerta {
+    position: fixed;
+    top: 10%;
+    z-index: 200;
+}
+
+#nu-ta {
+    margin-right: 20px;
+    /*margin-top: -20px;*/
+}
+
+.mensaje {
+    color:green;
+    position: fixed;
+    top: 93%;
+    right: 30px;
+    z-index: 0;
+}
+
+.spoilermas {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 25px;
+}
+
+.redondeles {
+    border-radius: 250px;
+}
+
+.espaciame {
+    margin-bottom: 7px;
+}
+
+.puja {
+    padding-left: 12px;
+}
+
+.rallita_edita_tar {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.raton-normal {
+    cursor:default;
+}
+
+.raton-senala {
+    cursor:pointer;
+}
+
+.raton-interroga {
+    cursor:help;
+}
+
+.no-selec {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* LOGIN.PHP */
+
+#titulo-login {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+    text-align:center;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+#subtitulo-login {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+a.nounderline:link {
+    text-decoration:none;
+}
+
+.bodylog {
+    padding-top: 85px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+.mensaje-login {
+    position: fixed;
+    top: 2%;
+    z-index: 0;
+}
+
+#logo {
+    margin-bottom: 10px;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 20;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#get_form {
+    margin-top: 10px;
+}
+
+#forgot {
+    text-align:center;
+    margin-top: 8px;
+    margin-bottom: -10px;
+}
+
+.white {
+    background-color: white;
+}
+
+/* Footer del login */
+.mastfoot {
+    color: rgba(0,0,0,.5);
+}
+
+.masthead {
+    position: relative;
+    z-index: 10;
+    top: 0;
+}
+
+.masthead, .mastfoot {
+    width: 100%;
+}
+
+.mastfoot {
+    position: fixed;
+    bottom: 2em;
+    text-align: center;
+}
+
+/* FOOTER.PHP */
+
+#footer {
+    padding: 40px 50px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    cursor:default;
+}
