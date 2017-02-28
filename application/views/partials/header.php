@@ -13,8 +13,12 @@
         <meta name="description" content="Procrastinator - Stop wasting time">
         <meta name="author" content="Eduardo Fernandez">
         <link rel="icon" href="<?=base_url()?>assets/img/procrastinator-favicon.png">
+
+        <link href="<?=base_url()?>assets/css/scss/main.css" rel="stylesheet" type="text/css"/>
+<!--
         <link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet" type="text/css"/>
+-->
     </head>
     <body>
         <div class="container-fluid" id="header">
