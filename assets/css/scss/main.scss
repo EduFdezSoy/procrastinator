@@ -18,6 +18,7 @@
     color: red;
 }
 
+
 /* HEADER.PHP */
 
 #header {
@@ -33,7 +34,16 @@
     color: whitesmoke;
 }
 
+
+/* MAIN.PHP */
+
+#taskslist {
+    @extend .container;
+}
+
+
 /* INDEX.PHP */
+
 .titulo {
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
@@ -43,7 +53,7 @@
 .subtitulo {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    text-align:center;
+    text-align: center;
     color: #2196f3;
 }
 
@@ -59,7 +69,7 @@
 }
 
 .mensaje {
-    color:green;
+    color: green;
     position: fixed;
     top: 93%;
     right: 30px;
@@ -95,15 +105,15 @@
 }
 
 .raton-normal {
-    cursor:default;
+    cursor: default;
 }
 
 .raton-senala {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .raton-interroga {
-    cursor:help;
+    cursor: help;
 }
 
 .no-selec {
@@ -113,12 +123,13 @@
     user-select: none;
 }
 
+
 /* LOGIN.PHP */
 
 #titulo-login {
     font-family: 'Fjalla One', sans-serif;
     font-size: 60px;
-    text-align:center;
+    text-align: center;
     margin-bottom: 0px;
     margin-top: 25px;
 }
@@ -126,13 +137,13 @@
 #subtitulo-login {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
-    text-align:center;
+    text-align: center;
     margin-top: -15px;
     margin-bottom: 25px;
 }
 
 a.nounderline:link {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .bodylog {
@@ -140,6 +151,7 @@ a.nounderline:link {
     padding-bottom: 40px;
     background-color: #eee;
 }
+
 .mensaje-login {
     position: fixed;
     top: 2%;
@@ -198,7 +210,7 @@ a.nounderline:link {
 }
 
 #forgot {
-    text-align:center;
+    text-align: center;
     margin-top: 8px;
     margin-bottom: -10px;
 }
@@ -207,9 +219,11 @@ a.nounderline:link {
     background-color: white;
 }
 
+
 /* Footer del login */
+
 .mastfoot {
-    color: rgba(0,0,0,.5);
+    color: rgba(0, 0, 0, .5);
 }
 
 .masthead {
@@ -218,7 +232,8 @@ a.nounderline:link {
     top: 0;
 }
 
-.masthead, .mastfoot {
+.masthead,
+.mastfoot {
     width: 100%;
 }
 
@@ -228,11 +243,12 @@ a.nounderline:link {
     text-align: center;
 }
 
+
 /* FOOTER.PHP */
 
 #footer {
     padding: 40px 50px;
     color: #777;
     border-top: 1px solid #e5e5e5;
-    cursor:default;
+    cursor: default;
 }
