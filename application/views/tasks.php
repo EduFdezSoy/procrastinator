@@ -46,14 +46,14 @@
             </div>
             <!-- Bottom, task date, button.. -->
             <div class="task-bot">
-                <div class="col-xs-9 col-md-10">
-                    Por <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> el <?=$task->date?>
+                <div class="task-by">
+                    By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$task->date?>
                 </div>
-                <div class="col-xs-2 hidden-sm hidden-md hidden-lg" style="margin-left: -25px;">
-                    <button class="btn btn-xs btn-success">Complete</button>
+                <div class="taks-btn-xs">
+                    <button class="task-mini-btn">Complete</button>
                 </div>
-                <div class="hidden-xs col-sm-2">
-                    <button class="btn btn-success">Complete</button>
+                <div class="taks-btn-div">
+                    <button class="task-btn">Complete</button>
                 </div>
             </div>
         </div> <!-- Task container -->

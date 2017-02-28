@@ -72,6 +72,34 @@
     @extend .row;
 }
 
+.task-by {
+    @extend .col-xs-9;
+    @extend .col-md-10;
+}
+
+.taks-btn-xs {
+    @extend .col-xs-2;
+    @extend .hidden-sm;
+    @extend .hidden-md;
+    @extend .hidden-lg;
+    margin-left: -25px;
+}
+
+.taks-btn-div {
+    @extend .hidden-xs;
+    @extend .col-sm-2;
+}
+
+.task-btn {
+    @extend .btn;
+    @extend .btn-success;
+}
+
+.task-mini-btn {
+    @extend .task-btn;
+    @extend .btn-xs;
+}
+
 
 /* INDEX.PHP */
 
