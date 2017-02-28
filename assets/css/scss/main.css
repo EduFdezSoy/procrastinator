@@ -1441,7 +1441,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px; }
 
-.row {
+.row, .task-bot {
   margin-left: -15px;
   margin-right: -15px; }
 
@@ -5459,11 +5459,11 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, #taskslist:before, .container:after, #taskslist:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .task-top:before, .panel-body:after, .task-top:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, #taskslist:before, .container:after, #taskslist:after, .container-fluid:before, .container-fluid:after, .row:before, .task-bot:before, .row:after, .task-bot:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .task-top:before, .panel-body:after, .task-top:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
   content: " ";
   display: table; }
 
-.clearfix:after, .dl-horizontal dd:after, .container:after, #taskslist:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .task-top:after, .modal-header:after, .modal-footer:after {
+.clearfix:after, .dl-horizontal dd:after, .container:after, #taskslist:after, .container-fluid:after, .row:after, .task-bot:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .task-top:after, .modal-header:after, .modal-footer:after {
   clear: both; }
 
 .center-block {
