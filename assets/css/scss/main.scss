@@ -42,6 +42,36 @@
 }
 
 
+/* TASKS.PHP */
+
+.task-container {
+    @extend .panel;
+    @extend .panel-default;
+    @extend .well;
+}
+
+.task-top {
+    @extend .panel-body;
+}
+
+.task-icon {
+    @extend .glyphicon;
+    @extend .glyphicon-certificate;
+    font-size: 25px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.task-text {
+    vertical-align: middle;
+}
+
+.task-bot {
+    @extend .panel-footer;
+    @extend .raton-normal;
+}
+
+
 /* INDEX.PHP */
 
 .titulo {
