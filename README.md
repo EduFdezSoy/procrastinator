@@ -10,14 +10,14 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>2- Usar AJAX para llamar, leer y mostrar el archivo generado anteriormente</s>  
 <s>2.1- Limpiar codigo y comentar</s>  
 <s>2.2- Migrado CSS actual a SCSS</s>  
-3- Construir pestañas según la db
-3.1- Cambiar de pestañas con javascript
-3.2- Seleccionar pestaña con php único + AJAX (usar un id para mostrar la adecuada)
-4- Mostrar tareas completas (pestaña pegando a la derecha?)
-5- Botón y modal principal para añadir tareas
-5.1- Asegurar botón de completar y botón de deshacer
-6- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)
-7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad    
+3- Construir pestañas según la db  
+3.1- Cambiar de pestañas con javascript  
+3.2- Seleccionar pestaña con php único + AJAX (usar un id para mostrar la adecuada)  
+4- Mostrar tareas completas (pestaña pegando a la derecha?)  
+5- Botón y modal principal para añadir tareas  
+5.1- Asegurar botón de completar y botón de deshacer  
+6- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
+7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
 8- PHP para añadir y editar tareas  
 9- Mostrar tareas completas  
 10- Pagina de administración, usuarios existentes, administrar usuarios  
