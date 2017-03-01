@@ -18,7 +18,7 @@
     </head>
     <body>
         <div id="header">
-            <nav id=navbar>
+            <nav id="navbar">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pr-navbar">
