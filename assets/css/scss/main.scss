@@ -21,17 +21,45 @@
 
 /* HEADER.PHP */
 
-#header {
-    margin: 15px 0 0 0;
-}
-
-#contenido {
-    padding-top: 25px;
-}
-
 *::selection {
     background: #9d53cc;
     color: whitesmoke;
+}
+
+#header {
+    @extend .container-fluid;
+    margin: 15px 0 0 0;
+}
+
+#navbar {
+    @extend .navbar;
+    @extend .navbar-default;
+    @extend .no-selec;
+}
+
+#pr-navbar {
+    @extend .collapse;
+    @extend .navbar-collapse;
+}
+
+#pr-nav {
+    @extend .nav;
+    @extend .navbar-nav;
+}
+
+#pr-nav-right {
+    @extend #pr-nav;
+    @extend .navbar-right;
+}
+
+.admin-icon {
+    @extend .glyphicon;
+    @extend .glyphicon-sunglasses;
+}
+
+.logout-icon {
+    @extend .glyphicon;
+    @extend .glyphicon-off;
 }
 
 
