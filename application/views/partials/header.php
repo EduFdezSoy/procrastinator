@@ -34,7 +34,7 @@
                 </div>
 
                 <div id="pr-navbar">
-                  <ul id="nav">
+                  <ul id="navbar">
                     <li class="<?php if (current_url() == base_url()) { echo 'active'; } ?>"><a href="<?=base_url()?>"><span class="glyphicon glyphicon-tasks"></span>&nbsp;Tasks</a></li>
                     <li class="<?php if (current_url() == base_url('calendar')) { echo 'active'; } ?>"><a href="<?=base_url('calendar')?>"><span class="glyphicon glyphicon-calendar"></span>&nbsp;Calendar</a></li>
                     <li class="<?php if (current_url() == base_url('diary')) { echo 'active'; } ?>"><a href="<?=base_url('diary')?>"><span class="glyphicon glyphicon-book"></span>&nbsp;Diary</a></li>
