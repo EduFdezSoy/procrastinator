@@ -23,6 +23,7 @@ class Pr_model extends CI_Model
             // catch the data from the db and store into $result, then return $result
            $this->db->select('tabs.id, tabs.order, tabs.name');
            $this->db->from('tabs');
+           $this->db->order_by('tabs.order', 'asc');
            $sql = $this->db->get();
            $result = $sql->result();
            return $result;
