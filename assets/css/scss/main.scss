@@ -76,6 +76,18 @@
     margin-bottom: 20px;
 }
 
+.nav-tabs-right>li {
+    display: inline-block;
+    clear: left;
+    float: none;
+    text-align: right;
+    font-size: 12px;
+}
+
+#Tab-completed {
+    float: right;
+}
+
 
 /* MAIN.PHP */
 
