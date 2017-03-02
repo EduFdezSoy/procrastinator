@@ -63,6 +63,17 @@
 }
 
 
+/* TABS.PHP */
+
+#tabs {
+    @extend .nav;
+    @extend .nav-tabs;
+    &:first-child {
+        @extend .active;
+    }
+}
+
+
 /* MAIN.PHP */
 
 #taskslist {
