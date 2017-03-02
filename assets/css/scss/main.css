@@ -6442,7 +6442,7 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
   margin-bottom: 0; }
 
 #tabs {
-  margin: 10px; }
+  margin-bottom: 20px; }
 
 /* MAIN.PHP */
 /* TASKS.PHP */
