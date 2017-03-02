@@ -15,7 +15,7 @@ class Procrastinator extends CI_Controller {
 		// load header (<head>, menu and some css+js)
 		$this->load->view('partials/header');
 		// load the tabs for the tasks
-		$this->load->view('tabs', $this->data);
+		$this->load->view('partials/tabs', $this->data);
 		// main, this file only have an AJAX script to load the tasks
         $this->load->view('main');
 		// footer, footer of the page, js and other css that do not require to be loaded at start
