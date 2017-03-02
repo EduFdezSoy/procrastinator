@@ -29,5 +29,5 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 15- Añadir tiempo empleado en realizar una tarea  
 
 ## Base de Datos
-<a href="http://imgur.com/wYUNQaf"><img src="http://i.imgur.com/wYUNQaf.png" title="source: imgur.com" /></a>
-Esquema de la base de datos [20/2/2017]
+<a href="http://imgur.com/vw60H6q"><img src="http://i.imgur.com/vw60H6q.png" title="source: imgur.com" /></a>
+Esquema de la base de datos [02/03/2017]
