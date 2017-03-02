@@ -6,7 +6,7 @@
 
     <?php foreach ($tabs as $tab) { ?>
     
-        <li id="Tab-<?=$tab->id?>"><a href="#"><?=$tab->name?></a></li>
+        <li class="" id="Tab-<?=$tab->id?>"><a href="#"><?=$tab->name?></a></li>
         
     <?php } ?>
 
