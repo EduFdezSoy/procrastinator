@@ -68,9 +68,10 @@
 #tabs {
     @extend .nav;
     @extend .nav-tabs;
-    &:first-child {
-        @extend .active;
-    }
+}
+
+#tabs:first-child {
+    @extend .active;
 }
 
 
