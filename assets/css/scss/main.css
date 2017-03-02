@@ -6439,7 +6439,7 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 
 /* TABS.PHP */
 .tabs-containter {
-  margin: 0; }
+  margin-bottom: 0; }
 
 /* MAIN.PHP */
 /* TASKS.PHP */
