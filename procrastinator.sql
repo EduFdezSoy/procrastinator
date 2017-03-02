@@ -124,6 +124,7 @@ DROP TABLE IF EXISTS `tabs`;
 
 CREATE TABLE `tabs` (
 	`id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `order` int(11) unsigned NOT NULL,
 	`name` varchar(15) NOT NULL,
 	PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -132,8 +133,9 @@ CREATE TABLE `tabs` (
 # Dumping data for table 'Tabs'
 #
 
-INSERT INTO `tabs` (`id`, `name`) VALUES
-     (1,'General');
+INSERT INTO `tabs` (`id`, `order`, `name`) VALUES
+     (1, 1, 'General'),
+     (2, 2, 'Urgent!');
 
 DROP TABLE IF EXISTS `tasks`;
 
