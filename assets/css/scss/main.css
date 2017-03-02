@@ -6452,7 +6452,7 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
   font-size: 12px; }
 
 #Tab-completed {
-  float: right; }
+  float: right !important; }
 
 /* MAIN.PHP */
 /* TASKS.PHP */
