@@ -10,5 +10,6 @@
             
         <?php } ?>
 
+            <li id="Tab-completed"><a href="#">Completed</a></li>
     </ul>
 </div>
