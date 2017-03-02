@@ -1,7 +1,8 @@
 <?php
 // Copyright (c) 2016 - 2017, Eduardo Fernández
  ?>
-    <ul id="tabs" class="col-md-offset-2 col-md-8">
+ <div class="tabs-container">
+    <ul id="tabs">
 
         <?php foreach ($tabs as $tab) { ?>
         
@@ -10,3 +11,4 @@
         <?php } ?>
 
     </ul>
+</div>

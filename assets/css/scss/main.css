@@ -1420,20 +1420,20 @@ pre code {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, #taskslist {
+.container, .tabs-containter, #taskslist {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
 
 @media (min-width: 768px) {
-  .container, #taskslist {
+  .container, .tabs-containter, #taskslist {
     width: 750px; } }
 @media (min-width: 992px) {
-  .container, #taskslist {
+  .container, .tabs-containter, #taskslist {
     width: 970px; } }
 @media (min-width: 1200px) {
-  .container, #taskslist {
+  .container, .tabs-containter, #taskslist {
     width: 1170px; } }
 .container-fluid, #header {
   margin-right: auto;
@@ -3567,12 +3567,12 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse, .navbar-fixed-top #pr-navbar, .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-bottom #pr-navbar {
     max-height: 200px; } }
-.container > .navbar-header, #taskslist > .navbar-header, .container-fluid > .navbar-header, #header > .navbar-header, .container > .navbar-collapse, #taskslist > .navbar-collapse, .container > #pr-navbar, #taskslist > #pr-navbar, .container-fluid > .navbar-collapse, #header > .navbar-collapse, .container-fluid > #pr-navbar, #header > #pr-navbar {
+.container > .navbar-header, .tabs-containter > .navbar-header, #taskslist > .navbar-header, .container-fluid > .navbar-header, #header > .navbar-header, .container > .navbar-collapse, .tabs-containter > .navbar-collapse, #taskslist > .navbar-collapse, .container > #pr-navbar, .tabs-containter > #pr-navbar, #taskslist > #pr-navbar, .container-fluid > .navbar-collapse, #header > .navbar-collapse, .container-fluid > #pr-navbar, #header > #pr-navbar {
   margin-right: -15px;
   margin-left: -15px; }
 
 @media (min-width: 768px) {
-  .container > .navbar-header, #taskslist > .navbar-header, .container-fluid > .navbar-header, #header > .navbar-header, .container > .navbar-collapse, #taskslist > .navbar-collapse, .container > #pr-navbar, #taskslist > #pr-navbar, .container-fluid > .navbar-collapse, #header > .navbar-collapse, .container-fluid > #pr-navbar, #header > #pr-navbar {
+  .container > .navbar-header, .tabs-containter > .navbar-header, #taskslist > .navbar-header, .container-fluid > .navbar-header, #header > .navbar-header, .container > .navbar-collapse, .tabs-containter > .navbar-collapse, #taskslist > .navbar-collapse, .container > #pr-navbar, .tabs-containter > #pr-navbar, #taskslist > #pr-navbar, .container-fluid > .navbar-collapse, #header > .navbar-collapse, .container-fluid > #pr-navbar, #header > #pr-navbar {
     margin-right: 0;
     margin-left: 0; } }
 .navbar-static-top {
@@ -3614,7 +3614,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > .input-group-
   display: block; }
 
 @media (min-width: 768px) {
-  .navbar > .container .navbar-brand, #navbar > .container .navbar-brand, .navbar > #taskslist .navbar-brand, #navbar > #taskslist .navbar-brand, .navbar > .container-fluid .navbar-brand, #navbar > .container-fluid .navbar-brand, .navbar > #header .navbar-brand, #navbar > #header .navbar-brand {
+  .navbar > .container .navbar-brand, #navbar > .container .navbar-brand, .navbar > .tabs-containter .navbar-brand, #navbar > .tabs-containter .navbar-brand, .navbar > #taskslist .navbar-brand, #navbar > #taskslist .navbar-brand, .navbar > .container-fluid .navbar-brand, #navbar > .container-fluid .navbar-brand, .navbar > #header .navbar-brand, #navbar > #header .navbar-brand {
     margin-left: -15px; } }
 .navbar-toggle {
   position: relative;
@@ -4194,12 +4194,12 @@ a.badge:hover, a.badge:focus {
 .jumbotron > hr {
   border-top-color: #dcdcdc; }
 
-.container .jumbotron, #taskslist .jumbotron, .container-fluid .jumbotron, #header .jumbotron {
+.container .jumbotron, .tabs-containter .jumbotron, #taskslist .jumbotron, .container-fluid .jumbotron, #header .jumbotron {
   border-radius: 3px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.jumbotron .container, .jumbotron #taskslist {
+.jumbotron .container, .jumbotron .tabs-containter, .jumbotron #taskslist {
   max-width: 100%; }
 
 @media screen and (min-width: 768px) {
@@ -4207,7 +4207,7 @@ a.badge:hover, a.badge:focus {
     padding-top: 48px;
     padding-bottom: 48px; }
 
-  .container .jumbotron, #taskslist .jumbotron, .container-fluid .jumbotron, #header .jumbotron {
+  .container .jumbotron, .tabs-containter .jumbotron, #taskslist .jumbotron, .container-fluid .jumbotron, #header .jumbotron {
     padding-left: 60px;
     padding-right: 60px; }
 
@@ -5459,11 +5459,11 @@ button.close {
 
   .carousel-indicators {
     bottom: 20px; } }
-.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, #taskslist:before, .container:after, #taskslist:after, .container-fluid:before, #header:before, .container-fluid:after, #header:after, .row:before, .task-bot:before, .row:after, .task-bot:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, #pr-nav:before, #pr-nav-right:before, #tabs:before, .nav:after, #pr-nav:after, #pr-nav-right:after, #tabs:after, .navbar:before, #navbar:before, .navbar:after, #navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, #pr-navbar:before, .navbar-collapse:after, #pr-navbar:after, .pager:before, .pager:after, .panel-body:before, .task-top:before, .panel-body:after, .task-top:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .tabs-containter:before, #taskslist:before, .container:after, .tabs-containter:after, #taskslist:after, .container-fluid:before, #header:before, .container-fluid:after, #header:after, .row:before, .task-bot:before, .row:after, .task-bot:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, #pr-nav:before, #pr-nav-right:before, #tabs:before, .nav:after, #pr-nav:after, #pr-nav-right:after, #tabs:after, .navbar:before, #navbar:before, .navbar:after, #navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, #pr-navbar:before, .navbar-collapse:after, #pr-navbar:after, .pager:before, .pager:after, .panel-body:before, .task-top:before, .panel-body:after, .task-top:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
   content: " ";
   display: table; }
 
-.clearfix:after, .dl-horizontal dd:after, .container:after, #taskslist:after, .container-fluid:after, #header:after, .row:after, .task-bot:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, #pr-nav:after, #pr-nav-right:after, #tabs:after, .navbar:after, #navbar:after, .navbar-header:after, .navbar-collapse:after, #pr-navbar:after, .pager:after, .panel-body:after, .task-top:after, .modal-header:after, .modal-footer:after {
+.clearfix:after, .dl-horizontal dd:after, .container:after, .tabs-containter:after, #taskslist:after, .container-fluid:after, #header:after, .row:after, .task-bot:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, #pr-nav:after, #pr-nav-right:after, #tabs:after, .navbar:after, #navbar:after, .navbar-header:after, .navbar-collapse:after, #pr-navbar:after, .pager:after, .panel-body:after, .task-top:after, .modal-header:after, .modal-footer:after {
   clear: both; }
 
 .center-block {
@@ -6438,6 +6438,9 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
   margin: 15px 0 0 0; }
 
 /* TABS.PHP */
+.tabs-containter {
+  margin: 0; }
+
 /* MAIN.PHP */
 /* TASKS.PHP */
 .task-icon {

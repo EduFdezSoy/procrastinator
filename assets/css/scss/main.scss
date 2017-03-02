@@ -65,6 +65,11 @@
 
 /* TABS.PHP */
 
+.tabs-containter {
+    @extend .container;
+    margin: 0;
+}
+
 #tabs {
     @extend .nav;
     @extend .nav-tabs;
