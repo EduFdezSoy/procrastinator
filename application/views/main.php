@@ -43,10 +43,8 @@ if (window.XMLHttpRequest) {
 
 <script>
 // Define tab to the ajax call
-$tab=1;
-// First AJAX request on page load
-function ajaxcall(tab) {
-    if (window.XMLHttpRequest) {
+var tab = 1;
+if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
         } else {
@@ -58,11 +56,25 @@ function ajaxcall(tab) {
                 document.getElementById("taskslist").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="$tab,true);
+        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="tab,true);
         xmlhttp.send();
-}
 // Periodic Ajax requests
-setInterval(ajaxcall(tab), 10000); // Time: 10s
+setInterval(function(tab){
+if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5 (someone still using them?)
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("taskslist").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="tab,true);
+        xmlhttp.send();
+}, 10000); // Time: 10s
 </script>
 
 <!-- Here will be shown the result from the AJAX call -->
