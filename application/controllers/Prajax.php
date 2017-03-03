@@ -19,7 +19,7 @@ class Prajax extends CI_Controller {
 			$this->load->view('tasks', $this->data);
 		} elseif ($func==0) {
 			// do pr_completed_tasks() from prajax model and store in data['tasks'], then load the view tasks
-			$this->data['completed_tasks'] = $this->prajax_model->pr_completed_tasks();
+			$this->data['tasks'] = $this->prajax_model->pr_completed_tasks();
 			$this->load->view('tasks', $this->data);
 		}		
 	}
