@@ -10,6 +10,6 @@
             
         <?php } ?>
 
-            <li id="Tab-completed"><a href="#">Completed</a></li>
+            <li id="Tab-completed" onclick="tabNum(0)"><a href="#">Completed</a></li>
     </ul>
 </div>

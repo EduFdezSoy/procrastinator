@@ -13,11 +13,11 @@ class Prajax extends CI_Controller {
 		$func = $_GET['f'];
 
 		// load task depending of "f"
-		if ($func==1) {
+		if ($func=>1) {
 			// do pr_tasks() from prajax model and store in data['tasks'], then load the view tasks
-			$this->data['tasks'] = $this->prajax_model->pr_tasks();
+			$this->data['tasks'] = $this->prajax_model->pr_tasks($func);
 			$this->load->view('tasks', $this->data);
-		} elseif ($func==2) {
+		} elseif ($func==0) {
 			// do pr_completed_tasks() from prajax model and store in data['tasks'], then load the view tasks
 			$this->data['completed_tasks'] = $this->prajax_model->pr_completed_tasks();
 			$this->load->view('tasks', $this->data);
