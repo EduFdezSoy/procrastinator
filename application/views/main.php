@@ -59,7 +59,7 @@ if (window.XMLHttpRequest) {
         xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
         xmlhttp.send();
 // Periodic Ajax requests
-setInterval(function(tab){
+setInterval(function(){
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
