@@ -12,6 +12,7 @@ var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 function tabNum(n) {
     clearInterval(ajaxInterval);
     var tab = n;
+    ajaxCall();
     var ajaxInterval = setInterval(ajaxCall, 10000);
 }
 
