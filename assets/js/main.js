@@ -23,6 +23,11 @@ for (var i = 0; i < elems.length; i++)
     elems[i].addEventListener('mousedown', makeActive);
 
 
+// change a var value for AJAX call
+function tabnum(n) {
+
+}
+
 
 // script que oculta los elementos de id mensaje a los 3 segundos
 setTimeout("document.getElementById(\"mensaje\").style.display = \"none\"", 3000);
