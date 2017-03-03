@@ -44,6 +44,7 @@ if (window.XMLHttpRequest) {
 <script>
 // Define tab to the ajax call
 var tab = 1;
+// First AJAX request on page load
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
