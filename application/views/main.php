@@ -48,7 +48,7 @@ if (window.XMLHttpRequest) {
 var tab = 1;
 
 // Periodic Ajax requests
-var ajaxInterval = function(){
+function ajaxCall(){
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -64,7 +64,8 @@ if (window.XMLHttpRequest) {
         xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
         xmlhttp.send();
 }
-setInterval(ajaxInterval, 10000); // Time: 10s
+ajaxCall(); 
+var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 </script>
 
 <!-- Here will be shown the result from the AJAX call -->
