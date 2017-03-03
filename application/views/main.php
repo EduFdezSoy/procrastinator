@@ -47,7 +47,8 @@ if (window.XMLHttpRequest) {
 // Define tab to the ajax call
 var tab = 1;
 // Ajax request function
-function ajaxCall(){
+function ajaxCall(n){
+    var num = n;
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -60,11 +61,11 @@ if (window.XMLHttpRequest) {
                 document.getElementById("taskslist").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
+        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+num,true);
         xmlhttp.send();
 }
 // Ajax call
-ajaxCall(); 
+ajaxCall(tab); 
 // Ajax periodic calls and tab function are in main.js
 </script>
 
