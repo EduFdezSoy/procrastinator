@@ -48,7 +48,7 @@ if (window.XMLHttpRequest) {
 var tab = 1;
 // Ajax request function
 function ajaxCall(n){
-    var num = n;
+var num = n;
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -65,7 +65,7 @@ if (window.XMLHttpRequest) {
         xmlhttp.send();
 }
 // Ajax call
-ajaxCall(tab); 
+ 
 // Ajax periodic calls and tab function are in main.js
 </script>
 
