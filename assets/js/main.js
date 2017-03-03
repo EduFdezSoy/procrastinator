@@ -6,14 +6,14 @@
  */
 
 // Ajax periodic calls (ajax function is in views/main.php)
-var ajaxInterval = setInterval(ajaxCall(tab), 10000); // Time: 10s
+var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 
 // change a var value for AJAX call
 function tabNum(n) {
     clearInterval(ajaxInterval);
     var tab = n;
     ajaxCall(tab);
-    var ajaxInterval = setInterval(ajaxCall(tab), 10000);
+    var ajaxInterval = setInterval(ajaxCall, 10000);
 }
 
 // change .active clas from tabs

@@ -65,7 +65,7 @@ if (window.XMLHttpRequest) {
         xmlhttp.send();
 }
 // Ajax call
- 
+ ajaxCall(tab);
 // Ajax periodic calls and tab function are in main.js
 </script>
 
