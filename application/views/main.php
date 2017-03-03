@@ -46,8 +46,7 @@ if (window.XMLHttpRequest) {
 <script>
 // Define tab to the ajax call
 var tab = 1;
-
-// Periodic Ajax requests
+// Ajax request function
 function ajaxCall(){
 if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
@@ -64,8 +63,9 @@ if (window.XMLHttpRequest) {
         xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
         xmlhttp.send();
 }
+// Ajax call
 ajaxCall(); 
-var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+// Ajax periodic calls and tab function are in main.js
 </script>
 
 <!-- Here will be shown the result from the AJAX call -->

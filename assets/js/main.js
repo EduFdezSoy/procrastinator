@@ -5,6 +5,16 @@
  *
  */
 
+// Ajax periodic calls (ajax function is in views/main.php)
+var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+
+// change a var value for AJAX call
+function tabNum(n) {
+    clearInterval(ajaxInterval);
+    var tab = n;
+    var ajaxInterval = setInterval(ajaxCall, 10000);
+}
+
 // change .active clas from tabs
 var selector, elems, makeActive;
 
@@ -21,30 +31,6 @@ makeActive = function() {
 
 for (var i = 0; i < elems.length; i++)
     elems[i].addEventListener('mousedown', makeActive);
-
-
-// change a var value for AJAX call
-function tabNum(n) {
-
-    // Define tab to the ajax call
-    var tab = n;
-    // First AJAX request on page load
-    if (window.XMLHttpRequest) {
-        // code for IE7+, Firefox, Chrome, Opera, Safari
-        xmlhttp = new XMLHttpRequest();
-    } else {
-        // code for IE6, IE5
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            document.getElementById("taskslist").innerHTML = this.responseText;
-        }
-    };
-    xmlhttp.open("GET", "https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f=" + tab, true);
-    xmlhttp.send();
-}
-
 
 // script que oculta los elementos de id mensaje a los 3 segundos
 setTimeout("document.getElementById(\"mensaje\").style.display = \"none\"", 3000);
