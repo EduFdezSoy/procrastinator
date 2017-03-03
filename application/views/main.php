@@ -56,7 +56,7 @@ if (window.XMLHttpRequest) {
                 document.getElementById("taskslist").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="tab,true);
+        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
         xmlhttp.send();
 // Periodic Ajax requests
 setInterval(function(tab){
@@ -72,7 +72,7 @@ if (window.XMLHttpRequest) {
                 document.getElementById("taskslist").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="tab,true);
+        xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+tab,true);
         xmlhttp.send();
 }, 10000); // Time: 10s
 </script>
