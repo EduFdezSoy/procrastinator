@@ -13,6 +13,7 @@ function tabNum(n) {
     clearInterval(ajaxInterval);
     window.tab = n;
     ajaxCall();
+    var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 }
 
 // change .active clas from tabs
