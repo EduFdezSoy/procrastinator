@@ -13,7 +13,7 @@
         <script src="<?=base_url()?>assets/js/pace.min.js" type="text/javascript"></script>
         <link href="<?=base_url()?>assets/css/pace.css" rel="stylesheet" type="text/css"/>
         <link rel="icon" href="<?=base_url()?>assets/img/procrastinator-favicon.png">
-        <link href="proteus.eedufdezsoy.es/procrastinator/assets/css/scss/main.css" rel="stylesheet" type="text/css"/>
+        <link href="https://proteus.edufdezsoy.es/procrastinator/assets/css/scss/main.css" rel="stylesheet" type="text/css"/>
 <!--    <link href="<?=base_url()?>assets/css/main.css" rel="stylesheet" type="text/css"/> -->
     </head>
     <body>
