@@ -10,7 +10,7 @@ var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 
 // change a var value for AJAX call
 function tabNum(n) {
-    clearInterval(ajaxInterval);
+    clearInterval(ajaxInterval); // stop making calls
     window.tab = n;
     ajaxCall();
     ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
