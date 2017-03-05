@@ -16,7 +16,7 @@
         <h5 class="modal-title" id="addTasksModal">Create task</h5>
       </div>
       <div class="modal-body">
-        <form action="dowithtask" method="POST" name="taskform" class="form-horizontal" role="form">
+        <form id="addtaskform" action="dowithtask" method="POST" name="taskform" class="form-horizontal" role="form">
             <textarea rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-sm-push-2 col-xs-2 control-label">Tab</label>
@@ -45,7 +45,7 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Add task</button>
+        <input type="submit" form="addtaskform" value="Add task" class="btn btn-primary"/>
       </div>
     </div>
   </div>
