@@ -32,3 +32,6 @@ function ajaxCall(){
 <div id="taskslist">
     Loading...
 </div>
+
+<!-- Bottom right corner button to add tasks -->
+<button type="button" class="add-task-btn" data-toggle="modal" data-target="#addTask">+</button>

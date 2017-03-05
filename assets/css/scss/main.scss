@@ -95,6 +95,14 @@
     @extend .container;
 }
 
+.add-task-btn {
+    @extend .btn;
+    @extend .btn-primary;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
 
 /* TASKS.PHP */
 
