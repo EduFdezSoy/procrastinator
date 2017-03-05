@@ -6457,10 +6457,10 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 /* MAIN.PHP */
 .add-task-btn {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
-  font-size: 18px;
-  border-radius: 25px; }
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  border-radius: 50%; }
 
 /* TASKS.PHP */
 .task-icon {
