@@ -6462,8 +6462,8 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
   border-radius: 50%;
   bottom: 20px;
   right: 20px;
-  font-size: 50px;
-  line-height: 50px; }
+  font-size: 35px;
+  line-height: 35px; }
 
 /* TASKS.PHP */
 .task-icon {
