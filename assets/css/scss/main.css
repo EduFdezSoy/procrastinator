@@ -6430,7 +6430,14 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
   color: red; }
 
 /* HEADER.PHP */
+html {
+  overflow-y: scroll; }
+
 *::selection {
+  background: #9d53cc;
+  color: whitesmoke; }
+
+*::-moz-selection {
   background: #9d53cc;
   color: whitesmoke; }
 

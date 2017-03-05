@@ -21,7 +21,16 @@
 
 /* HEADER.PHP */
 
+html {
+    overflow-y: scroll;
+}
+
 *::selection {
+    background: #9d53cc;
+    color: whitesmoke;
+}
+
+*::-moz-selection {
     background: #9d53cc;
     color: whitesmoke;
 }
