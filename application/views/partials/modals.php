@@ -37,7 +37,7 @@
                     <label class="col-sm-push-2 col-xs-2 control-label">Color</label>
                     <div class="col-sm-push-2 col-xs-4">
                         <input id="inColor" class="form-control" style="display: inline;" name="color" value="#2196f3" type="color">
-                        <button class="repeat-btn" onclick="colorGen()"><span class="repeat-btn"></span></button>
+                        <button class="repeat-btn" onclick="colorGen()"><span class="repeat-btn-icon"></span></button>
                     </div>
                 </div>
             </div>
