@@ -6458,7 +6458,9 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 .add-task-btn {
   position: fixed;
   bottom: 10px;
-  right: 10px; }
+  right: 10px;
+  font-size: 18px;
+  border-radius: 25px; }
 
 /* TASKS.PHP */
 .task-icon {
