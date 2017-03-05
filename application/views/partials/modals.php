@@ -16,7 +16,7 @@
         <h5 class="modal-title" id="addTasksModal">Create task</h5>
       </div>
       <div class="modal-body">
-        <form action="dowithtask.php" method="POST" name="taskform" class="form-horizontal" role="form">
+        <form action="dowithtask" method="POST" name="taskform" class="form-horizontal" role="form">
             <textarea rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-sm-push-2 col-xs-2 control-label">Tab</label>
@@ -31,6 +31,7 @@
 
                     </select> 
                 </div>
+                <br>
                 <div class="form-group">
                     <label class="col-sm-push-2 col-xs-2 control-label">Color</label>
                     <div class="col-sm-push-2 col-xs-4">
