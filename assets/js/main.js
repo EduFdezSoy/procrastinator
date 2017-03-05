@@ -33,6 +33,28 @@ makeActive = function() {
 for (var i = 0; i < elems.length; i++)
     elems[i].addEventListener('mousedown', makeActive);
 
+// generate a random color for the "add task" modal
+function colorGen() {
+    var text = " ";
+    var charset = "ABCDEF0123456789";
+
+    for (var i = 0; i < 6; i++)
+        text += charset.charAt(Math.floor(Math.random() * charset.length));
+
+    document.getElementById("inColor").setAttribute("value", "#" + text);
+}
+
+
+
+
+
+
+
+
+
+/////// OLD BUT GOLD, no lo estoy usando, puede servir ///////
+
+
 // script que oculta los elementos de id mensaje a los 3 segundos
 setTimeout("document.getElementById(\"mensaje\").style.display = \"none\"", 3000);
 
