@@ -6457,8 +6457,8 @@ input[type="checkbox"]:disabled:checked:after, .checkbox input[type="checkbox"]:
 /* MAIN.PHP */
 .add-task-btn {
   position: fixed;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   bottom: 20px;
   right: 20px;
