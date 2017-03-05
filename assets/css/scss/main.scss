@@ -177,6 +177,36 @@ html {
 }
 
 
+/* MODELS.PHP */
+
+.repeat-btn {
+    @extend .btn;
+    @extend .btn-default;
+    @extend .raton-senala;
+}
+
+.repeat-btn-icon {
+    @extend .glyphicon;
+    @extend .glyphicon-repeat;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    display: inline-block;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.repeat-btn-icon:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+
 /* INDEX.PHP */
 
 .titulo {

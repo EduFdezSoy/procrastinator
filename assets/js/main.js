@@ -44,9 +44,10 @@ function colorGen() {
     document.getElementById("inColor").setAttribute("value", text);
 }
 
-
-
-
+// clear textarea from the form when closed
+function eraseText() {
+    document.getElementById("addtasktextarea").value = "";
+}
 
 
 
