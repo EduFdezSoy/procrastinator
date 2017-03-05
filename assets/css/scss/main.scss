@@ -183,6 +183,8 @@ html {
     @extend .btn;
     @extend .btn-default;
     @extend .raton-senala;
+    @extend .col-sm-push-2;
+    @extend .col-xs-1;
 }
 
 .repeat-btn-icon {
