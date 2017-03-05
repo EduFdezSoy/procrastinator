@@ -35,13 +35,13 @@ for (var i = 0; i < elems.length; i++)
 
 // generate a random color for the "add task" modal
 function colorGen() {
-    var text = " ";
+    var text = "#";
     var charset = "ABCDEF0123456789";
 
     for (var i = 0; i < 6; i++)
         text += charset.charAt(Math.floor(Math.random() * charset.length));
 
-    document.getElementById("inColor").setAttribute("value", "#" + text);
+    document.getElementById("inColor").setAttribute("value", text);
 }
 
 
