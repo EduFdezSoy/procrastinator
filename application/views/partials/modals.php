@@ -32,6 +32,7 @@
                     </select> 
                 </div>
                 <br>
+                <br>
                 <div class="form-group">
                     <label class="col-sm-push-2 col-xs-2 control-label">Color</label>
                     <div class="col-sm-push-2 col-xs-4">
