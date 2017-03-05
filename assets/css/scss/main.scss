@@ -99,10 +99,13 @@
     @extend .btn;
     @extend .btn-primary;
     position: fixed;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     bottom: 20px;
     right: 20px;
-    font-size: 20px;
-    border-radius: 50%;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 
