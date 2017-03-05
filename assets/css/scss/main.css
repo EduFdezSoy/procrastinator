@@ -6496,7 +6496,7 @@ html {
   -o-transition-property: -o-transform;
   transition-property: transform; }
 
-.repeat-btn-icon:hover {
+.repeat-btn:hover [class*="repeat-btn-icon"] {
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   -moz-transform: rotate(360deg);
