@@ -39,7 +39,6 @@
                         <input id="inColor" class="form-control" style="display: inline;" name="color" value="#2196f3" type="color">
                     </div>
                 </div>
-                <input class="btn btn-lg btn-primary btn-block" value="Añadir" type="submit">
             </div>
         </form>
       </div>
