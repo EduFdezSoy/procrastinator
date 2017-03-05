@@ -179,6 +179,10 @@ html {
 
 /* MODELS.PHP */
 
+#inColor {
+    @extend .col-xs-3;
+}
+
 .repeat-btn {
     @extend .btn;
     @extend .btn-default;
