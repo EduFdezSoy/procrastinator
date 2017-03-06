@@ -10,7 +10,7 @@ class Dowithtask extends CI_Controller {
 		$do = $this->input->post('do');
 		
 		// loads the model we are going to use
-		$this->load->model('dowithtask');
+		$this->load->model('dowithtask_model');
 
 		if ($do == "ADD") {
 
@@ -21,7 +21,7 @@ class Dowithtask extends CI_Controller {
 			$new_task_user = "1";
 			
 			// we may send it in the order of the db
-			$this->dowithtask->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
+			$this->dowithtask_model->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
 
 		} elseif ($do == "COMPLETE") {
 

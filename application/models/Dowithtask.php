@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
-* Name:  Procrastinator Model
+* Name:  Dowithtask Model
 *
 * Author:  Eduardo Fernandez
 * 		   yo@edufdezsoy.es
@@ -10,7 +10,7 @@
 * Location: http://github.com/edufdezsoy/procrastinator
 */
 
-class Pr_model extends CI_Model
+class Dowithtask_model extends CI_Model
 {
     public function __construct()
     {
