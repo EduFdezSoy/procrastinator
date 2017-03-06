@@ -22,8 +22,8 @@
             <input type="hidden" value="ADD" name="do"/>
             <textarea id="addtasktextarea" rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
-                <label class="col-sm-push-2 col-xs-2 control-label">Tab</label>
-                <div class="col-sm-push-2 col-xs-4">
+                <label class="col-xs-push-2 col-xs-2 control-label">Tab</label>
+                <div class="col-xs-push-2 col-xs-8 col-sm-4">
                     <select class="form-control" name="tab" id="contenedor">
 
                         <?php foreach ($tabs as $tab) { ?>
@@ -40,8 +40,8 @@
                     <label class="col-xs-push-2 col-xs-2 control-label">Color</label>
                     <div class="col-xs-push-2 col-xs-7">
                       <div class="row">
-                        <input id="inColor" class="col-xs-5" name="color" value="#2196f3" type="color">
-                        <div class="repeat-btn col-xs-3" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
+                        <input id="inColor" class="col-xs-5 col-sm-2" name="color" value="#2196f3" type="color">
+                        <div class="repeat-btn col-xs-3 col-sm-1" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
                       </div>
                     </div>
                 </div>
