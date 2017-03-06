@@ -5,7 +5,7 @@
     <?php foreach ($tasks as $task) { 
     
         // change time and date to only date in the format we want
-        $date = date ('l, j \o\f F' strtotime($task->date));
+        $date = date('l, j \o\f F', strtotime($task->date));
     ?>
 
         <!-- Task container -->
