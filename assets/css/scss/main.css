@@ -6486,7 +6486,8 @@ html {
 
 /* MODELS.PHP */
 #inColor {
-  display: inline; }
+  display: inline;
+  width: 30%; }
 
 .repeat-btn-icon {
   -webkit-transition-duration: 0.8s;

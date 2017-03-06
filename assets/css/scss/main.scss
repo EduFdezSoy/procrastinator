@@ -182,6 +182,7 @@ html {
 #inColor {
     @extend .form-control;
     display: inline;
+    width: 30%;
 }
 
 .repeat-btn {
