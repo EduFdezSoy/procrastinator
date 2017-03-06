@@ -5,7 +5,7 @@ class Dowithtask extends CI_Controller {
 
 	public function index()
 	{
-		// catch "do" to know what we are going to do with the info
+/*		// catch "do" to know what we are going to do with the info
 		// Posible values are ADD, COMPLETE, EDIT and DEL
 		$do = $this->input->post('do');
 		
@@ -25,7 +25,12 @@ class Dowithtask extends CI_Controller {
 
 		} elseif ($do == "COMPLETE") {
 
-			$tabs = $this->input->post('id');
+			$task = $this->input->post('id');
+			// we need to check the user, will do it tomorrow
+			$user = "1";
+			
+			// we may send it in the order of the db
+			$this->dowithtask_model->complete_task($id, $user);
 
 		} elseif ($do == "EDIT") {
 
@@ -38,6 +43,25 @@ class Dowithtask extends CI_Controller {
 		}
 
 		redirect('/procrastinator');
+*/
+	echo "what are you doing here?";
+	}
+
+		public function add()
+	{
+		
+		// loads the model we are going to use
+		$this->load->model('dowithtask_model');
+
+
+		$new_task = $this->input->post('task');
+		$new_task_color = $this->input->post('color');
+		$new_task_tab = $this->input->post('tab');
+		// we need to check the user, will do it tomorrow
+		$new_task_user = "1";
+		
+		// we may send it in the order of the db
+		$this->dowithtask_model->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
 
 	}
 }
