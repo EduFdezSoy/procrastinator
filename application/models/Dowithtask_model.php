@@ -20,7 +20,11 @@ class Dowithtask_model extends CI_Model
     // add_task: add a new task into db
 	public function add_task($user, $task, $tab, $color)
 	{
+        // get date and time
         $timedate = date ('Y\-m\-d G\-i\-s');
+
+        // remove the # from the color code
+       $color = str_replace("#", "", $color);
 
         // add the new task into table
         $data = array(
@@ -38,6 +42,7 @@ class Dowithtask_model extends CI_Model
     // add_task: add a new task into db
 	public function complete_task($id, $user)
 	{
+        // get date and time
         $timedate = date ('Y\-m\-d G\-i\-s');
 
         // update task table, change status to "1" (completed)
