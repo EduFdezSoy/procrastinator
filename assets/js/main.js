@@ -51,7 +51,8 @@ function eraseText() {
 
 // copy tab id and paste in the form (to make the first form tab visible always be the selected)
 function catch_tab(tab_id) {
-    document.getElementById("tabselect").getElementById(tab_id).selected = "true";
+    var select = document.getElementById("tabselect");
+    select.getElementById(tab_id).selected = "true";
 }
 
 
