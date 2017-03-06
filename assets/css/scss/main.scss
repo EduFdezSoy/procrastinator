@@ -180,13 +180,13 @@ html {
 /* MODELS.PHP */
 
 #inColor {
-    @extend .col-xs-3;
+    @extend .col-xs-9;
     @extend .form-control;
     display: inline;
-    min-width: 60%;
 }
 
 .repeat-btn {
+    @extend .col-xs-3;
     @extend .btn;
     @extend .btn-default;
     @extend .raton-senala;
