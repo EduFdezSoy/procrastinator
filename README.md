@@ -15,7 +15,8 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>3.2- Seleccionar pestaña con php único + AJAX (usar un id para mostrar la adecuada)</s>  
 <s>4- Mostrar tareas completas (pestaña pegando a la derecha?)</s>  
 5- Botón y modal principal para añadir tareas  
-5.1- Asegurar botón de completar y botón de deshacer  
+5.1- Preselecionar automaticamente la tab actual en el formulario  
+5.2- Asegurar botón de completar y botón de deshacer  
 6- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
 7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
 8- PHP para añadir y editar tareas  
