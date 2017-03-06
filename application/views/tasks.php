@@ -20,10 +20,10 @@
                     By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$date?>
                 </div>
                 <div class="taks-btn-xs">
-                    <button class="task-mini-btn">Complete</button>
+                    <a href="dowithtask/complete?id=<?=$task->id?>" class="task-mini-btn">Complete</a>
                 </div>
                 <div class="taks-btn-div">
-                    <button class="task-btn">Complete</button>
+                    <a href="dowithtask/complete?id=<?=$task->id?>" class="task-btn">Complete</a>
                 </div>
             </div>
         </div> <!-- Task container -->

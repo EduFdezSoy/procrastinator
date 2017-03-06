@@ -5,63 +5,55 @@ class Dowithtask extends CI_Controller {
 
 	public function index()
 	{
-/*		// catch "do" to know what we are going to do with the info
-		// Posible values are ADD, COMPLETE, EDIT and DEL
-		$do = $this->input->post('do');
-		
-		// loads the model we are going to use
-		$this->load->model('dowithtask_model');
 
-		if ($do == "ADD") {
-
-			$new_task = $this->input->post('task');
-			$new_task_color = $this->input->post('color');
-			$new_task_tab = $this->input->post('tab');
-			// we need to check the user, will do it tomorrow
-			$new_task_user = "1";
-			
-			// we may send it in the order of the db
-			$this->dowithtask_model->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
-
-		} elseif ($do == "COMPLETE") {
-
-			$task = $this->input->post('id');
-			// we need to check the user, will do it tomorrow
-			$user = "1";
-			
-			// we may send it in the order of the db
-			$this->dowithtask_model->complete_task($id, $user);
-
-		} elseif ($do == "EDIT") {
-
-			$tabs = $this->input->post('id');
-
-		} elseif ($do == "DEL") {
-
-			$tabs = $this->input->post('id');
-
-		}
-
-		redirect('/procrastinator');
-*/
 	echo "what are you doing here?";
+
 	}
 
-		public function add()
+	public function add()
 	{
 		
 		// loads the model we are going to use
 		$this->load->model('dowithtask_model');
 
-
-		$new_task = $this->input->post('task');
+		// asign data to vars
+		$new_task 		= $this->input->post('task');
 		$new_task_color = $this->input->post('color');
-		$new_task_tab = $this->input->post('tab');
+		$new_task_tab 	= $this->input->post('tab');
 		// we need to check the user, will do it tomorrow
-		$new_task_user = "1";
+		$new_task_user 	= "1";
 		
 		// we may send it in the order of the db
-		$this->dowithtask_model->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
+		$this->dowithtask_model->add_task(
+			$new_task_user,
+			$new_task,
+			$new_task_tab,
+			$new_task_color
+		);
+		
+		// now, redirect to main page
+		redirect('/procrastinator');
+	}
 
+	public function complete()
+	{
+		// get "id" from url to determinate what to do
+		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
+		// loads the model we are going to use
+		$this->load->model('dowithtask_model');
+
+		// asign data to vars
+		$task_id = $_GET['id'];
+		// we need to check the user, will do it tomorrow
+		$user = "1";
+		
+		// we may send it in the order of the db
+		$this->dowithtask_model->complete_task(
+			$task_id,
+			$user
+		);
+		
+		// now, redirect to main page
+		redirect('/procrastinator');
 	}
 }

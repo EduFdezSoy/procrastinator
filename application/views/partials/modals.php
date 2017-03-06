@@ -17,9 +17,7 @@
       </div>
       <div class="modal-body">
       <!-- form -->
-        <form id="addtaskform" action="dowithtask" method="POST" name="taskform" class="form-horizontal" role="form">
-            <!-- This input will say to the server what are we doing with this form -->
-            <input type="hidden" value="ADD" name="do"/>
+        <form id="addtaskform" action="dowithtask/add" method="POST" name="taskform" class="form-horizontal" role="form">
             <textarea id="addtasktextarea" rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-xs-push-2 col-xs-2 control-label">Tab</label>
