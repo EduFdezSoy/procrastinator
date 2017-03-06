@@ -23,7 +23,7 @@
             <textarea id="addtasktextarea" rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-xs-push-2 col-xs-2 control-label">Tab</label>
-                <div class="col-xs-push-2 col-xs-8 col-sm-4">
+                <div class="col-xs-push-2 col-xs-6 col-sm-4">
                     <select class="form-control" name="tab" id="contenedor">
 
                         <?php foreach ($tabs as $tab) { ?>
