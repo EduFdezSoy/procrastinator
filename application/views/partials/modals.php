@@ -24,7 +24,7 @@
             <div class="form-group">
                 <label class="col-xs-push-2 col-xs-2 control-label">Tab</label>
                 <div class="col-xs-push-2 col-xs-6 col-sm-4">
-                    <select class="form-control" name="tab" id="contenedor">
+                    <select class="form-control" name="tab" id="tabselect">
 
                         <?php foreach ($tabs as $tab) { ?>
 
