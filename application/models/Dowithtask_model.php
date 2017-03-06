@@ -43,7 +43,7 @@ class Dowithtask_model extends CI_Model
         // update task table, change status to "1" (completed)
         $data = array('status' => 1);
         $this->db->where('id', $id);
-        $this->db->update('tasks' $data);
+        $this->db->update('tasks', $data);
 
         // insert "completed" info into table
         $data = array(
