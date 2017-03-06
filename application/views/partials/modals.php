@@ -16,7 +16,10 @@
         <h5 class="modal-title" id="addTasksModal">Create task</h5>
       </div>
       <div class="modal-body">
+      <!-- form -->
         <form id="addtaskform" action="dowithtask" method="POST" name="taskform" class="form-horizontal" role="form">
+            <!-- This input will say to the server what are we doing with this form -->
+            <input type="hidden" value="ADD" name="do"/>
             <textarea id="addtasktextarea" rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-sm-push-2 col-xs-2 control-label">Tab</label>
@@ -34,9 +37,9 @@
                 <br>
                 <br>
                 <div class="form-group">
-                    <label class="col-sm-push-2 col-xs-2 control-label">Color</label>
-                    <div class="col-sm-push-2 col-xs-10">
-                        <input id="inColor" class="form-control" style="display: inline;" name="color" value="#2196f3" type="color">
+                    <label class="col-xs-push-2 col-xs-2 control-label">Color</label>
+                    <div class="col-xs-push-2 col-xs-10">
+                        <input id="inColor" name="color" value="#2196f3" type="color">
                         <div class="repeat-btn" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
                     </div>
                 </div>

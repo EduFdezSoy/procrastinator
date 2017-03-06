@@ -181,6 +181,9 @@ html {
 
 #inColor {
     @extend .col-xs-3;
+    @extend .form-control;
+    display: inline;
+    min-width: 60%;
 }
 
 .repeat-btn {
