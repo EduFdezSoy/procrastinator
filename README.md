@@ -15,20 +15,20 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>3.2- Seleccionar pestaña con php único + AJAX (usar un id para mostrar la adecuada)</s>  
 <s>4- Mostrar tareas completas (pestaña pegando a la derecha?)</s>  
 <s>5- Botón y modal principal para añadir tareas</s>  
-5.1- Preselecionar automaticamente la tab actual en el formulario  
-5.2- Asegurar botón de completar y botón de deshacer  
-6- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
+<s>5.1- Preselecionar automaticamente la tab actual en el formulario</s>  
+6- Asegurar botón de completar y botón de deshacer  
 7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
 8- PHP para añadir y editar tareas  
 9- Mostrar tareas completas  
 10- Pagina de administración, usuarios existentes, administrar usuarios  
    --- FIRST RELASE PLANED ---  
-11- Implementar prioridades en las tareas  
-12- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
-13- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
-14- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
-15- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
-16- Añadir tiempo empleado en realizar una tarea  
+11- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
+12- Implementar prioridades en las tareas  
+13- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
+14- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+15- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
+16- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
+17- Añadir tiempo empleado en realizar una tarea  
 
 ## Base de Datos
 <a href="http://imgur.com/vw60H6q"><img src="http://i.imgur.com/vw60H6q.png" title="source: imgur.com" /></a>
