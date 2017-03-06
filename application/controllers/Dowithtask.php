@@ -1,25 +1,41 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Dowithtask extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		// catch "do" to know what we are going to do with the info
+		// Posible values are ADD, COMPLETE, EDIT and DEL
+		$do = $this->input->post('do');
+		
+		// loads the model we are going to use
+		$this->load->model('dowithtask');
+
+		if ($do == "ADD") {
+
+			$new_task = $this->input->post('task');
+			$new_task_color = $this->input->post('color');
+			$new_task_tab = $this->input->post('tab');
+			// we need to check the user, will do it tomorrow
+			$new_task_user = "1";
+			
+			// we may send it in the order of the db
+			$this->dowithtask->add_task($new_task_user, $new_task, $new_task_tab, $new_task_color);
+
+		} elseif ($do == "COMPLETE") {
+
+			$tabs = $this->input->post('id');
+
+		} elseif ($do == "EDIT") {
+
+			$tabs = $this->input->post('id');
+
+		} elseif ($do == "DEL") {
+
+			$tabs = $this->input->post('id');
+
+		}
+
 	}
 }
