@@ -37,5 +37,7 @@ class Dowithtask extends CI_Controller {
 
 		}
 
+		redirect('/procrastinator');
+
 	}
 }
