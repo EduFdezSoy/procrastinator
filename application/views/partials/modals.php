@@ -38,7 +38,7 @@
                 <br>
                 <div class="form-group">
                     <label class="col-xs-push-2 col-xs-2 control-label">Color</label>
-                    <div class="col-xs-push-2 col-xs-10">
+                    <div class="col-xs-push-2 col-xs-7">
                       <div class="row">
                         <input id="inColor" name="color" value="#2196f3" type="color">
                         <div class="repeat-btn" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
