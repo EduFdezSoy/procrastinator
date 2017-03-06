@@ -6,7 +6,7 @@
 
         <?php foreach ($tabs as $tab) { ?>
         
-            <li <? if($tab->order==1){echo 'class="active"';}?> id="Tab-<?=$tab->id?>" onclick="tabNum(<?=$tab->id?>); catch_tab("<?=$tab->id?>");"><a href="#"><?=$tab->name?></a></li>
+            <li <? if($tab->order==1){echo 'class="active"';}?> id="Tab-<?=$tab->id?>" onclick="tabNum(<?=$tab->id?>); catch_tab(<?=$tab->id?>);"><a href="#"><?=$tab->name?></a></li>
             
         <?php } ?>
 
