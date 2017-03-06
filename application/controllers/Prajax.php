@@ -23,6 +23,6 @@ class Prajax extends CI_Controller {
 			$this->data['tasks'] = $this->prajax_model->pr_completed_tasks();
 			$this->data['dateformat'] = 'j \o\f F, Y';
 			$this->load->view('tasks', $this->data);
-		}		
+		}
 	}
 }
