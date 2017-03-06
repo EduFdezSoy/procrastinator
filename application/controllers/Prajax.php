@@ -16,10 +16,12 @@ class Prajax extends CI_Controller {
 		if ($func>=1) {
 			// do pr_tasks() from prajax model and store in data['tasks'], then load the view tasks
 			$this->data['tasks'] = $this->prajax_model->pr_tasks($func);
+			$this->data['dateformat'] = 'l, j \o\f F';
 			$this->load->view('tasks', $this->data);
 		} elseif ($func==0) {
 			// do pr_completed_tasks() from prajax model and store in data['tasks'], then load the view tasks
 			$this->data['tasks'] = $this->prajax_model->pr_completed_tasks();
+			$this->data['dateformat'] = 'j \o\f F, Y';
 			$this->load->view('tasks', $this->data);
 		}		
 	}
