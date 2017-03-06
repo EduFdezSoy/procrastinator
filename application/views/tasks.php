@@ -2,8 +2,12 @@
 // Copyright (c) 2016 - 2017, Eduardo Fernández
  ?>
 
-    <?php foreach ($tasks as $task) { ?>
+    <?php foreach ($tasks as $task) { 
     
+        // change time and date to only date in the format we want
+        $date = date ('l, j \o\f F' strtotime($task->date));
+    ?>
+
         <!-- Task container -->
         <div class="task-container" id="<?=$task->id?>">
             <!-- Top, task -->
@@ -14,7 +18,7 @@
             <!-- Bottom, task date, button.. -->
             <div class="task-bot">
                 <div class="task-by">
-                    By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$task->date?>
+                    By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$date?>
                 </div>
                 <div class="taks-btn-xs">
                     <button class="task-mini-btn">Complete</button>
