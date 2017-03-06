@@ -41,9 +41,9 @@ class Dowithtask_model extends CI_Model
         $timedate = date ('Y\-m\-d G\-i\-s');
 
         // update task table, change status to "1" (completed)
-        $update = array('status' => 1);
+        $data = array('status' => 1);
         $this->db->where('id', $id);
-        $this->db->update('tasks' $update);
+        $this->db->update('tasks' $data);
 
         // insert "completed" info into table
         $data = array(
