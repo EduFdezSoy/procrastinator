@@ -40,8 +40,8 @@
                     <label class="col-xs-push-2 col-xs-2 control-label">Color</label>
                     <div class="col-xs-push-2 col-xs-7">
                       <div class="row">
-                        <input id="inColor" class="col-xs-5 col-sm-2" name="color" value="#2196f3" type="color">
-                        <div class="repeat-btn col-xs-3 col-sm-1" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
+                        <input id="inColor" class="col-xs-8 col-sm-2" name="color" value="#2196f3" type="color">
+                        <div class="repeat-btn col-xs-3 col-sm-2" onclick="colorGen()"><span class="repeat-btn-icon"></span></div>
                       </div>
                     </div>
                 </div>
