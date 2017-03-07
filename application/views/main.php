@@ -20,7 +20,7 @@ function ajaxCall(){
             document.getElementById("taskslist").innerHTML = this.responseText;
         }
     };
-    xmlhttp.open("GET","https://proteus.edufdezsoy.es/procrastinator/index.php/prajax?f="+num,true);
+    xmlhttp.open("GET","<?=base_url()?>prajax?f="+num,true);
     xmlhttp.send();
 }
 // Ajax call
