@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://proteus.edufdezsoy.es/procrastinator';
-/* REMEMBER: do not use a / at the end of the url */
+$config['base_url'] = 'https://proteus.edufdezsoy.es/procrastinator/';
 
 /*
 |--------------------------------------------------------------------------
