@@ -37,13 +37,20 @@ class Dowithtask extends CI_Controller {
 
 	public function complete()
 	{
-		// get "id" from url to determinate what to do
-		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
+
 		// loads the model we are going to use
 		$this->load->model('dowithtask_model');
 
-		// asign data to vars
+		// get "id" from url to determinate what to do
+		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
+
+		// asign data from get to vars
 		$task_id = $_GET['id'];
+		// check get value is an int
+		if( ! filter_var($task_id, FILTER_VALIDATE_INT) ){
+		redirect('/procrastinator/whatareyoutrying');
+		}
+
 		// we need to check the user, will do it tomorrow
 		$user = "1";
 		

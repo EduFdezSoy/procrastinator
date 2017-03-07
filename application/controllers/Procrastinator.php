@@ -23,4 +23,9 @@ class Procrastinator extends CI_Controller {
 		// footer, footer of the page, js and other css that do not require to be loaded at start
         $this->load->view('partials/footer');
 	}
+
+	public function whatareyoutrying()
+	{
+		$this->load->view('errors/wrutrying');
+	}
 }
