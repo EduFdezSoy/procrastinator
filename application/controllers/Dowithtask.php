@@ -46,9 +46,10 @@ class Dowithtask extends CI_Controller {
 
 		// asign data from get to vars
 		$task_id = $_GET['id'];
+		
 		// check get value is an int
 		if( ! filter_var($task_id, FILTER_VALIDATE_INT) ){
-		redirect('/procrastinator/whatareyoutrying');
+			redirect('/procrastinator/whatareyoutrying');
 		}
 
 		// we need to check the user, will do it tomorrow
