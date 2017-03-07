@@ -391,6 +391,13 @@ a.nounderline:link {
     background-color: white;
 }
 
+.btn-login-form {
+    @extend .btn;
+    @extend .btn-lg;
+    @extend .btn-primary;
+    @extend .btn-block;
+}
+
 
 /* Footer del login */
 
