@@ -7,16 +7,14 @@ $form_attrib = array(
     'class'   => 'form-signin white',
     'method'  => 'post'
 );
-array_push($identity,
-    'class'       = 'form-control',
-    'name'        = 'identity',
-    'placeholder' = 'User Name'
-);
-array_push($password,
-    'class'       = 'form-control',
-    'name'        = 'password',
-    'placeholder' = 'Password'
-);
+$identity['class']       = 'form-control',
+$identity['name']        = 'identity',
+$identity['placeholder'] = 'User Name'
+
+$password['class']       = 'form-control',
+$password['name']        = 'password',
+$password['placeholder'] = 'Password'
+
 $btn = array(
     'class' => 'btn-login-form',
     'type'  => 'submit',
