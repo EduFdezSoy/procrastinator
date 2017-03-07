@@ -78,6 +78,7 @@ $btn = array(
         </a>
       </p>
     </div>
+    <div class="mastfoot raton-normal">
       <div class="inner">
         <p>Made by <a target="blank" href="https://twitter.com/EduFdezSoy" class="nounderline">Eduardo Fern&aacute;ndez</a></p>   
       </div>
