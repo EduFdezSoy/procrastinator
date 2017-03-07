@@ -13,7 +13,7 @@ class Prajax extends CI_Controller {
 		$func = $_GET['f'];
 
 		// check get value is an int
-		if( (! filter_var($func, FILTER_VALIDATE_INT) OR (! $func === 0) ) {
+		if( (! filter_var($func, FILTER_VALIDATE_INT)) OR (! $func === 0) ) {
 			redirect('/procrastinator/whatareyoutrying');
 		}
 
