@@ -69,14 +69,14 @@ $btn = array(
           <?=form_checkbox('remember', '1', FALSE, 'id="remember"');?>
         </p>
         <p><?=form_submit($btn);?></p>
+        <p id="forgot">
+          <a href="forgot_password" class="nounderline">
+            <?=lang('login_forgot_password');?>
+          </a>
+        </p>
 
       <?=form_close();?>
 
-      <p id="forgot">
-        <a href="forgot_password" class="nounderline">
-          <?=lang('login_forgot_password');?>
-        </a>
-      </p>
     </div>
     <div class="mastfoot raton-normal">
       <div class="inner">
