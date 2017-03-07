@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'https://proteus.edufdezsoy.es/procrastinator';
+/* REMEMBER: do not use a / at the end of the url */
 
 /*
 |--------------------------------------------------------------------------
