@@ -8,14 +8,14 @@ $form_attrib = array(
     'method'  => 'post'
 );
 array_push($identity,
-    'class' => 'form-control',
-    'name'  => 'identity',
-    'placeholder' => 'User Name'
+    'class'       = 'form-control',
+    'name'        = 'identity',
+    'placeholder' = 'User Name'
 );
 array_push($password,
-    'class'       => 'form-control',
-    'name'        => 'password',
-    'placeholder' => 'Password'
+    'class'       = 'form-control',
+    'name'        = 'password',
+    'placeholder' = 'Password'
 );
 $btn = array(
     'class' => 'btn-login-form',
