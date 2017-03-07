@@ -24,8 +24,15 @@ class Procrastinator extends CI_Controller {
         $this->load->view('partials/footer');
 	}
 
+	// this page is shown when you try to do stranger things
 	public function whatareyoutrying()
 	{
 		$this->load->view('errors/wrutrying');
+	}
+
+	// redirect to auth/logout and, obiously, logout
+	public function logout()
+	{
+		redirect('/auth/logout');
 	}
 }
