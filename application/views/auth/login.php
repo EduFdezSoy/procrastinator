@@ -80,7 +80,7 @@ $btn = array(
     </div>
     <div class="loginfoot">
       <div>
-        <p>Made by <a target="blank" href="https://twitter.com/EduFdezSoy" class="nounderline">Eduardo Fern&aacute;ndez</a></p>   
+        <p>Made by <a target="blank" href="https://twitter.com/EduFdezSoy" class="nounderline">Eduardo Fern&aacute;ndez</a></p>
       </div>
     </div>
 
