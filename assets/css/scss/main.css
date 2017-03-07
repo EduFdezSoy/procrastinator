@@ -6558,7 +6558,7 @@ html {
   height: 10px;
   border-radius: 10px; }
 
-.raton-normal, .task-bot {
+.raton-normal, .task-bot, .loginfoot {
   cursor: default; }
 
 .raton-senala, .repeat-btn {
@@ -6592,7 +6592,7 @@ a.nounderline:link {
   text-decoration: none; }
 
 .bodylog {
-  padding-top: 85px;
+  padding-top: 50px;
   padding-bottom: 40px;
   background-color: #eee; }
 
@@ -6651,20 +6651,9 @@ a.nounderline:link {
 .white {
   background-color: white; }
 
-/* Footer del login */
-.mastfoot {
-  color: rgba(0, 0, 0, 0.5); }
-
-.masthead {
-  position: relative;
-  z-index: 10;
-  top: 0; }
-
-.masthead,
-.mastfoot {
-  width: 100%; }
-
-.mastfoot {
+.loginfoot {
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
   position: fixed;
   bottom: 2em;
   text-align: center; }

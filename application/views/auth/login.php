@@ -78,11 +78,12 @@ $btn = array(
       <?=form_close();?>
 
     </div>
-    <div class="mastfoot raton-normal">
-      <div class="inner">
+    <div class="loginfoot">
+      <div>
         <p>Made by <a target="blank" href="https://twitter.com/EduFdezSoy" class="nounderline">Eduardo Fern&aacute;ndez</a></p>   
       </div>
     </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="<?=base_url()?>assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?=base_url()?>assets/js/main.js" type="text/javascript"></script>
