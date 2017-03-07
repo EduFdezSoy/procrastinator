@@ -6,6 +6,13 @@ class Procrastinator extends CI_Controller {
 	// load index page (page where task are showns)
 	public function index()
 	{
+		
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+
 		// load model
 		$this->load->model('pr_model');
 
@@ -27,12 +34,26 @@ class Procrastinator extends CI_Controller {
 	// this page is shown when you try to do stranger things
 	public function whatareyoutrying()
 	{
+		
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+
 		$this->load->view('errors/wrutrying');
 	}
 
 	// redirect to auth/logout and, obiously, logout
 	public function logout()
 	{
+		
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+
 		redirect('/auth/logout');
 	}
 }

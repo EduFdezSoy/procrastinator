@@ -5,6 +5,13 @@ class Prajax extends CI_Controller {
 
 	public function index()
 	{
+		
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
+		
 		// load model
 		$this->load->model('prajax_model');
 		

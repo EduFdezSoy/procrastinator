@@ -12,6 +12,12 @@ class Dowithtask extends CI_Controller {
 
 	public function add()
 	{
+
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
 		
 		// loads the model we are going to use
 		$this->load->model('dowithtask_model');
@@ -37,6 +43,12 @@ class Dowithtask extends CI_Controller {
 
 	public function complete()
 	{
+		
+		// check if user is login in
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('auth/login');
+		}
 
 		// loads the model we are going to use
 		$this->load->model('dowithtask_model');
