@@ -6651,6 +6651,9 @@ a.nounderline:link {
 .white {
   background-color: white; }
 
+#remember {
+  top: 4px; }
+
 .loginfoot {
   color: rgba(0, 0, 0, 0.5);
   width: 100%;

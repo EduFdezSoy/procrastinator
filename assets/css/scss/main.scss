@@ -391,6 +391,10 @@ a.nounderline:link {
     background-color: white;
 }
 
+#remember {
+    top: 4px;
+}
+
 .btn-login-form {
     @extend .btn;
     @extend .btn-lg;
