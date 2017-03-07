@@ -11,6 +11,11 @@ class Prajax extends CI_Controller {
 		// get "f" from url to determinate what to do
 		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
 		$func = $_GET['f'];
+		
+		// check get value is an int
+		if( ! filter_var($func, FILTER_VALIDATE_INT) ){
+			redirect('/procrastinator/whatareyoutrying');
+		}
 
 		// load task depending of "f"
 		if ($func>=1) {
