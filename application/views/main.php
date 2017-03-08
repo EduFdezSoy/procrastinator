@@ -3,20 +3,24 @@
 ?>
 
 <script>
-// Define tab to the ajax call
+// Initialice and define tab to the ajax call
 var tab = 1;
 // Ajax request function
-function ajaxCall(){
+function ajaxCall()
+{
     var num = window.tab;
-    if (window.XMLHttpRequest) {
+    if (window.XMLHttpRequest)
+    {
         // code for IE7+, Firefox, Chrome, Opera, Safari
         xmlhttp = new XMLHttpRequest();
     } else {
         // code for IE6, IE5 (someone still using them?)
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
+    xmlhttp.onreadystatechange = function()
+    {
+        if (this.readyState == 4 && this.status == 200)
+        {
             document.getElementById("taskslist").innerHTML = this.responseText;
         }
     };
@@ -24,7 +28,7 @@ function ajaxCall(){
     xmlhttp.send();
 }
 // Ajax call
- ajaxCall();
+ajaxCall();
 // Ajax periodic calls and tab function are in main.js
 </script>
 
