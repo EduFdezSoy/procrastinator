@@ -52,4 +52,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'Procrastinator';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['prajax/(:any)'] = "prajax/$1";
+$route['prajax/(:any)'] = "prajax/index/$1";
