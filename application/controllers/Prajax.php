@@ -5,6 +5,13 @@ class Prajax extends CI_Controller {
 
 	public function index()
 	{
+
+		redirect('/procrastinator/whatareyoutrying');
+
+	}
+
+	public function tasks()
+	{
 		
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
