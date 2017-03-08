@@ -20,7 +20,7 @@ function ajaxCall(){
             document.getElementById("taskslist").innerHTML = this.responseText;
         }
     };
-    xmlhttp.open("GET","<?=base_url()?>prajax/"+num,true);
+    xmlhttp.open("GET","<?=base_url()?>prajax/tasks/"+num,true);
     xmlhttp.send();
 }
 // Ajax call
