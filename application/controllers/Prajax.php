@@ -22,10 +22,9 @@ class Prajax extends CI_Controller {
 		// load model
 		$this->load->model('prajax_model');
 
-		// get "f" from url to determinate what to do
-		// parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
-		// $tab = $_GET['f'];
+		// get "tab" from url to determinate what to do
 		$tab = $this->uri->segment(3);
+
 		// check if it is 0
 		if ($tab == 0) {
 

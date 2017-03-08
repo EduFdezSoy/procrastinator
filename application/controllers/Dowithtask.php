@@ -53,12 +53,9 @@ class Dowithtask extends CI_Controller {
 		// loads the model we are going to use
 		$this->load->model('dowithtask_model');
 
-		// get "id" from url to determinate what to do
-		parse_str(substr(strrchr($_SERVER['REQUEST_URI'], "?"), 1), $_GET);
+		// get "task_id" from url to determinate what to do
+		$task_id = $this->uri->segment(3);
 
-		// asign data from get to vars
-		$task_id = $_GET['id'];
-		
 		// check get value is an int
 		if( ! filter_var($task_id, FILTER_VALIDATE_INT) ){
 			redirect('/procrastinator/whatareyoutrying');
