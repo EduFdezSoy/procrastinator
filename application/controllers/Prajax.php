@@ -18,6 +18,7 @@ class Prajax extends CI_Controller {
 		{
 			// if the user is not loged in, refresh the page
 			echo '<meta http-equiv="refresh" content="1">';
+			exit;
 		}
 
 		// load model
