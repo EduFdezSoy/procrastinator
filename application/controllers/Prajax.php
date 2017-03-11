@@ -16,9 +16,7 @@ class Prajax extends CI_Controller {
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
 		{
-			// if the user is not loged in, refresh the page
-			echo '<meta http-equiv="refresh" content="1">';
-			exit;
+			redirect('prajax/notloggen');
 		}
 
 		// load model
@@ -54,5 +52,20 @@ class Prajax extends CI_Controller {
 		$this->load->view('tasks', $this->data);
 
 		}
+	}
+
+	public function notlogged()
+	{
+
+		// if the user login somehow, keep showing tasks
+		if (!$this->ion_auth->logged_in())
+		{
+			redirect('prajax/tasks');
+		}
+
+		echo 'you are not logged in!';
+		echo 'please, click here and login again';
+		echo '<a href='.base_url().'>click me!</a>';
+
 	}
 }
