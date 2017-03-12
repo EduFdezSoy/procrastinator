@@ -54,6 +54,22 @@ function catch_tab(tab_id) {
     document.getElementById("tabselect").value = tab_id;
 }
 
+// send add task form
+var frm = $('#addtaskform');
+frm.submit(function(ev) {
+    $.ajax({
+        type: frm.attr('method'),
+        url: frm.attr('action'),
+        data: frm.serialize(),
+        success: function(data) {
+            alert('ok');
+        }
+    });
+
+    ev.preventDefault();
+});
+
+
 
 
 /////// OLD BUT GOLD, no lo estoy usando, puede servir ///////
