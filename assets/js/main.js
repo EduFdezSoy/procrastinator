@@ -61,14 +61,13 @@ $('#addtaskform').submit(function(ev) {
         url: $('#addtaskform').attr('action'),
         data: $('#addtaskform').serialize(),
         success: function(data) {
-            alert('ok');
+            ajaxCall();
+            $('#addTask').modal('hide');
+            eraseText();
         }
     });
 
     ev.preventDefault();
-    ajaxCall();
-    $('#addTask').modal('hide');
-    eraseText();
 });
 
 
