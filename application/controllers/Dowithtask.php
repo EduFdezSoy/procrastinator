@@ -37,8 +37,8 @@ class Dowithtask extends CI_Controller {
 			$new_task_color
 		);
 		
-		// now, redirect to main page
-		redirect('/procrastinator');
+		// show OK message
+		echo 'OK';
 	}
 
 	public function complete()
