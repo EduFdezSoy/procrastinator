@@ -55,18 +55,19 @@ function catch_tab(tab_id) {
 }
 
 // send add task form
-var frm = $('#addtaskform');
-frm.submit(function(ev) {
+$('#addtaskform').submit(function(ev) {
     $.ajax({
-        type: frm.attr('method'),
-        url: frm.attr('action'),
-        data: frm.serialize(),
+        type: $('#addtaskform').attr('method'),
+        url: $('#addtaskform').attr('action'),
+        data: $('#addtaskform').serialize(),
         success: function(data) {
             alert('ok');
         }
     });
 
-    ev.preventDefault();
+    ajaxCall();
+    $('#addTask').modal('hide');
+    eraseText();
 });
 
 
