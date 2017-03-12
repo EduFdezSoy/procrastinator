@@ -18,14 +18,14 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>5.1- Preselecionar automaticamente la tab actual en el formulario</s>  
 6- Asegurar botón de completar y botón de deshacer  
 7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
-8- PHP para añadir y editar tareas  
+8- PHP para <s>añadir</s> y editar tareas  
 9- Mostrar tareas completas  
 10- Pagina de administración, usuarios existentes, administrar usuarios  
    --- FIRST RELASE PLANED ---  
-11- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
-12- Implementar prioridades en las tareas  
-13- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
-14- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+11- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+12- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
+13- Implementar prioridades en las tareas  
+14- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
 15- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
 16- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
 17- Añadir tiempo empleado en realizar una tarea  
