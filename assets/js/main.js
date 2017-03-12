@@ -65,6 +65,7 @@ $('#addtaskform').submit(function(ev) {
         }
     });
 
+    ev.preventDefault();
     ajaxCall();
     $('#addTask').modal('hide');
     eraseText();
