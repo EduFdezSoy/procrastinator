@@ -16,7 +16,7 @@ class Prajax extends CI_Controller {
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
 		{
-			redirect('prajax/notloggen');
+			redirect('prajax/notlogged');
 		}
 
 		// load model
