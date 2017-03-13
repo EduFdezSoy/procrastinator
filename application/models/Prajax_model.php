@@ -50,7 +50,7 @@ class Prajax_model extends CI_Model
            $this->db->join('users u1', 'completed_tasks.user_id = u1.id', 'left');
            $this->db->join('users u2', 'tasks.user_id = u2.id', 'left');
            $this->db->where('tasks.status = 1');
-           $this->db->order_by('c_date', 'asc');
+           $this->db->order_by('c_date', 'desc');
            $sql = $this->db->get();
            $result = $sql->result();
            return $result;
