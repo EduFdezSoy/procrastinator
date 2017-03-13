@@ -98,7 +98,7 @@ class Dowithtask extends CI_Controller {
 		$user = isset($user) ? $user : $this->session->userdata('user_id');
 
 		// we may send it in the order of the db
-		$this->dowithtask_model->complete_task(
+		$this->dowithtask_model->undo_task(
 			$task_id,
 			$user
 		);
