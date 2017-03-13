@@ -70,5 +70,9 @@ class Dowithtask_model extends CI_Model
 		$data = array('status' => 0);
 		$this->db->where('id', $id);
 		$this->db->update('tasks', $data);
+
+		// remove "completed" info from table
+		$this->db->where('task_id', $id);
+		$this->db->delete('completed_tasks');
 	}
 }
