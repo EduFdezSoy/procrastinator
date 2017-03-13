@@ -94,13 +94,9 @@ class Dowithtask extends CI_Controller {
 			redirect('/procrastinator/whatareyoutrying');
 		}
 
-		// catch the current user id
-		$user = isset($user) ? $user : $this->session->userdata('user_id');
-
 		// we may send it in the order of the db
 		$this->dowithtask_model->undo_task(
-			$task_id,
-			$user
+			$task_id
 		);
 
 		// now, redirect to main page
