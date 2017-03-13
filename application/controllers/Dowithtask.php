@@ -26,8 +26,8 @@ class Dowithtask extends CI_Controller {
 		$new_task 		= $this->input->post('task');
 		$new_task_color = $this->input->post('color');
 		$new_task_tab 	= $this->input->post('tab');
-		// we need to check the user, will do it tomorrow
-		$new_task_user 	= "1";
+		// catch the current user id
+		$new_task_user = isset($new_task_user) ? $new_task_user : $this->session->userdata('user_id');
 
 		// we may send it in the order of the db
 		$this->dowithtask_model->add_task(
@@ -61,8 +61,8 @@ class Dowithtask extends CI_Controller {
 			redirect('/procrastinator/whatareyoutrying');
 		}
 
-		// we need to check the user, will do it tomorrow
-		$user = "1";
+		// catch the current user id
+		$user = isset($user) ? $user : $this->session->userdata('user_id');
 
 		// we may send it in the order of the db
 		$this->dowithtask_model->complete_task(
@@ -94,8 +94,8 @@ class Dowithtask extends CI_Controller {
 			redirect('/procrastinator/whatareyoutrying');
 		}
 
-		// we need to check the user, will do it tomorrow
-		$user = "1";
+		// catch the current user id
+		$user = isset($user) ? $user : $this->session->userdata('user_id');
 
 		// we may send it in the order of the db
 		$this->dowithtask_model->complete_task(
