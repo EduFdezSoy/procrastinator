@@ -33,7 +33,7 @@ class Prajax extends CI_Controller {
 			$this->data['dateformat'] 	= 'j \o\f F, Y';
 
 			// load the view tasks
-			$this->load->view('tasks', $this->data);
+			$this->load->view('completed', $this->data);
 
 		// check if get value is an INT
 		} elseif ( ! filter_var($tab, FILTER_VALIDATE_INT) ) {

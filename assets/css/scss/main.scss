@@ -177,6 +177,19 @@ html {
 }
 
 
+/* COMPLETED.PHP */
+
+.task-completed-btn {
+    @extend .btn;
+    @extend .btn-warning;
+}
+
+.task-completed-mini-btn {
+    @extend .task-completed-btn;
+    @extend .btn-xs;
+}
+
+
 /* MODELS.PHP */
 
 #inColor {

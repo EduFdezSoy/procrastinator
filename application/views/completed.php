@@ -20,10 +20,10 @@
                     By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$date?>
                 </div>
                 <div class="taks-btn-xs">
-                    <a href="dowithtask/complete/<?=$task->id?>" class="task-mini-btn">Complete</a>
+                    <a href="dowithtask/complete/<?=$task->id?>" class="task-completed-mini-btn">Undo</a>
                 </div>
                 <div class="taks-btn-div">
-                    <a href="dowithtask/complete/<?=$task->id?>" class="task-btn">Complete</a>
+                    <a href="dowithtask/complete/<?=$task->id?>" class="task-completed-btn">Undo</a>
                 </div>
             </div>
         </div> <!-- Task container -->
