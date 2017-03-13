@@ -16,10 +16,10 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>4- Mostrar tareas completas (pestaña pegando a la derecha?)</s>  
 <s>5- Botón y modal principal para añadir tareas</s>  
 <s>5.1- Preselecionar automaticamente la tab actual en el formulario</s>  
-6- Asegurar botón de completar y botón de deshacer  
-7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad  
+6- Asegurar botón de <s>completar</s> y botón de deshacer  
+<s>7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad</s>  
 8- PHP para <s>añadir</s> y editar tareas  
-9- Mostrar tareas completas  
+<s>9- Mostrar tareas completas</s>  
 10- Pagina de administración, usuarios existentes, administrar usuarios  
    --- FIRST RELASE PLANED ---  
 11- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
