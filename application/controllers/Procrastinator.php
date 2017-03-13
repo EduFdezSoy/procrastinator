@@ -24,11 +24,11 @@ class Procrastinator extends CI_Controller {
 		// load the tabs for the tasks
 		$this->load->view('partials/tabs', $this->data);
 		// main, this file only have an AJAX script to load the tasks
-        $this->load->view('main');
+		$this->load->view('main');
 		// load the modals to create and edit tasks
 		$this->load->view('partials/modals', $this->data);
 		// footer, footer of the page, js and other css that do not require to be loaded at start
-        $this->load->view('partials/footer');
+		$this->load->view('partials/footer');
 	}
 
 	// this page is shown when you try to do stranger things
