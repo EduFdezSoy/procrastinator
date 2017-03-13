@@ -6,7 +6,7 @@ class Procrastinator extends CI_Controller {
 	// load index page (page where task are showns)
 	public function index()
 	{
-		
+
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
 		{
@@ -34,7 +34,7 @@ class Procrastinator extends CI_Controller {
 	// this page is shown when you try to do stranger things
 	public function whatareyoutrying()
 	{
-		
+
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
 		{
@@ -47,7 +47,7 @@ class Procrastinator extends CI_Controller {
 	// redirect to auth/logout and, obiously, logout
 	public function logout()
 	{
-		
+
 		// check if user is login in
 		if (!$this->ion_auth->logged_in())
 		{
