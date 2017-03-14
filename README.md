@@ -20,15 +20,16 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 <s>7- Una vez consigamos mostrar las tareas por pantalla añadir login y seguridad</s>  
 8- PHP para <s>añadir</s> y editar tareas  
 <s>9- Mostrar tareas completas</s>  
+11- Implementar "login_attemps"  
 10- Pagina de administración, usuarios existentes, administrar usuarios  
    --- FIRST RELASE PLANED ---  
-11- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
-12- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
-13- Implementar prioridades en las tareas  
-14- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
-15- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
-16- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
-17- Añadir tiempo empleado en realizar una tarea  
+12- Investigar e implementar servicios de notificaciones de Firefox y Chrome  
+13- Crear paginación (mostrar num de pag, botones y no mostrar si no hay mas)  
+14- Implementar prioridades en las tareas  
+15- Integración con yourls, pestaña y configuracion de la db y la API en la pestaña de configuración  
+16- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
+17- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
+18- Añadir tiempo empleado en realizar una tarea  
 
 ## Base de Datos
 <a href="http://imgur.com/vw60H6q"><img src="http://i.imgur.com/vw60H6q.png" title="source: imgur.com" /></a>
