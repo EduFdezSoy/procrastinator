@@ -40,7 +40,7 @@ class Dowithtask_model extends CI_Model
 		$this->db->insert('tasks', $data);
 	}
 
-	// add_task: add a new task into db
+	// complete_task: complete a task and insert "completed" new data
 	public function complete_task($id, $user)
 	{
 		// get date and time
@@ -61,6 +61,7 @@ class Dowithtask_model extends CI_Model
 		$this->db->insert('completed_tasks', $data);
 	}
 
+	// undo_task: undo a task and delete "completed" data
 	public function undo_task($id)
 	{
 		// get date and time
