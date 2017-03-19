@@ -90,7 +90,7 @@ class Dowithtask_model extends CI_Model
 			'date'		=> $timedate,
 			'colour'	=> $color
 		);
-		$this->db->where('id', $id)
+		$this->db->where('id', $id);
 		$this->db->update('tasks', $data);
 	}
 }
