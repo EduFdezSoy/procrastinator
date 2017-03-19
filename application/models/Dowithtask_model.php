@@ -76,4 +76,21 @@ class Dowithtask_model extends CI_Model
 		$this->db->where('task_id', $id);
 		$this->db->delete('completed_tasks');
 	}
+
+	// edit_task: edit a task
+	public function edit_task($id, $task, $tab, $color)
+	{
+		// remove the # from the color code
+		$color = str_replace("#", "", $color);
+
+		// edit the task from the table
+		$data = array(
+			'task'		=> $task,
+			'tab_id'	=> $tab,
+			'date'		=> $timedate,
+			'colour'	=> $color
+		);
+		$this->db->where('id', $id)
+		$this->db->update('tasks', $data);
+	}
 }
