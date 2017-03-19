@@ -30,6 +30,7 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 16- Añadir servicios de comunicación via email (tareas pendientes, semanal, mensual...) configurable  
 17- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
 18- Añadir tiempo empleado en realizar una tarea  
+19- Añadir animaciones CSS de entrada de tareas y salida asi como otras animaciones en los menus  
 
 ## Base de Datos
 <a href="http://imgur.com/vw60H6q"><img src="http://i.imgur.com/vw60H6q.png" title="source: imgur.com" /></a>
