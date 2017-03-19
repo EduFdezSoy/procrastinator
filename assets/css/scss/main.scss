@@ -176,6 +176,16 @@ html {
     @extend .btn-xs;
 }
 
+.edit-btn {
+    @extend .btn-link;
+    @extend .btn-success;
+}
+
+.edit-mini-btn {
+    @extend .edit-btn;
+    @extend .btn-xs;
+}
+
 
 /* COMPLETED.PHP */
 

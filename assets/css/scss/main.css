@@ -2729,39 +2729,39 @@ a.btn.disabled, a.disabled.add-task-btn, a.disabled.task-btn, a.disabled.task-mi
   color: #2196f3;
   background-color: #ffffff; }
 
-.btn-success, .task-btn, .task-mini-btn {
+.btn-success, .task-btn, .task-mini-btn, .edit-btn, .edit-mini-btn {
   color: #ffffff;
   background-color: #4caf50;
   border-color: transparent; }
 
-.btn-success:focus, .task-btn:focus, .task-mini-btn:focus, .btn-success.focus, .focus.task-btn, .focus.task-mini-btn {
+.btn-success:focus, .task-btn:focus, .task-mini-btn:focus, .edit-btn:focus, .edit-mini-btn:focus, .btn-success.focus, .focus.task-btn, .focus.task-mini-btn, .focus.edit-btn, .focus.edit-mini-btn {
   color: #ffffff;
   background-color: #3d8b40;
   border-color: transparent; }
 
-.btn-success:hover, .task-btn:hover, .task-mini-btn:hover {
+.btn-success:hover, .task-btn:hover, .task-mini-btn:hover, .edit-btn:hover, .edit-mini-btn:hover {
   color: #ffffff;
   background-color: #3d8b40;
   border-color: transparent; }
 
-.btn-success:active, .task-btn:active, .task-mini-btn:active, .btn-success.active, .active.task-btn, .active.task-mini-btn, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.task-btn, .open > .dropdown-toggle.task-mini-btn {
+.btn-success:active, .task-btn:active, .task-mini-btn:active, .edit-btn:active, .edit-mini-btn:active, .btn-success.active, .active.task-btn, .active.task-mini-btn, .active.edit-btn, .active.edit-mini-btn, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.task-btn, .open > .dropdown-toggle.task-mini-btn, .open > .dropdown-toggle.edit-btn, .open > .dropdown-toggle.edit-mini-btn {
   color: #ffffff;
   background-color: #3d8b40;
   border-color: transparent; }
 
-.btn-success:active:hover, .task-btn:active:hover, .task-mini-btn:active:hover, .btn-success.active:hover, .active.task-btn:hover, .active.task-mini-btn:hover, .open > .dropdown-toggle.btn-success:hover, .open > .dropdown-toggle.task-btn:hover, .open > .dropdown-toggle.task-mini-btn:hover, .btn-success:active:focus, .task-btn:active:focus, .task-mini-btn:active:focus, .btn-success.active:focus, .active.task-btn:focus, .active.task-mini-btn:focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.task-btn:focus, .open > .dropdown-toggle.task-mini-btn:focus, .btn-success:active.focus, .task-btn:active.focus, .task-mini-btn:active.focus, .btn-success.active.focus, .active.focus.task-btn, .active.focus.task-mini-btn, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.focus.task-btn, .open > .dropdown-toggle.focus.task-mini-btn {
+.btn-success:active:hover, .task-btn:active:hover, .task-mini-btn:active:hover, .edit-btn:active:hover, .edit-mini-btn:active:hover, .btn-success.active:hover, .active.task-btn:hover, .active.task-mini-btn:hover, .active.edit-btn:hover, .active.edit-mini-btn:hover, .open > .dropdown-toggle.btn-success:hover, .open > .dropdown-toggle.task-btn:hover, .open > .dropdown-toggle.task-mini-btn:hover, .open > .dropdown-toggle.edit-btn:hover, .open > .dropdown-toggle.edit-mini-btn:hover, .btn-success:active:focus, .task-btn:active:focus, .task-mini-btn:active:focus, .edit-btn:active:focus, .edit-mini-btn:active:focus, .btn-success.active:focus, .active.task-btn:focus, .active.task-mini-btn:focus, .active.edit-btn:focus, .active.edit-mini-btn:focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.task-btn:focus, .open > .dropdown-toggle.task-mini-btn:focus, .open > .dropdown-toggle.edit-btn:focus, .open > .dropdown-toggle.edit-mini-btn:focus, .btn-success:active.focus, .task-btn:active.focus, .task-mini-btn:active.focus, .edit-btn:active.focus, .edit-mini-btn:active.focus, .btn-success.active.focus, .active.focus.task-btn, .active.focus.task-mini-btn, .active.focus.edit-btn, .active.focus.edit-mini-btn, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.focus.task-btn, .open > .dropdown-toggle.focus.task-mini-btn, .open > .dropdown-toggle.focus.edit-btn, .open > .dropdown-toggle.focus.edit-mini-btn {
   color: #ffffff;
   background-color: #327334;
   border-color: transparent; }
 
-.btn-success:active, .task-btn:active, .task-mini-btn:active, .btn-success.active, .active.task-btn, .active.task-mini-btn, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.task-btn, .open > .dropdown-toggle.task-mini-btn {
+.btn-success:active, .task-btn:active, .task-mini-btn:active, .edit-btn:active, .edit-mini-btn:active, .btn-success.active, .active.task-btn, .active.task-mini-btn, .active.edit-btn, .active.edit-mini-btn, .open > .dropdown-toggle.btn-success, .open > .dropdown-toggle.task-btn, .open > .dropdown-toggle.task-mini-btn, .open > .dropdown-toggle.edit-btn, .open > .dropdown-toggle.edit-mini-btn {
   background-image: none; }
 
-.btn-success.disabled:hover, .disabled.task-btn:hover, .disabled.task-mini-btn:hover, .btn-success[disabled]:hover, [disabled].task-btn:hover, [disabled].task-mini-btn:hover, fieldset[disabled] .btn-success:hover, fieldset[disabled] .task-btn:hover, fieldset[disabled] .task-mini-btn:hover, .btn-success.disabled:focus, .disabled.task-btn:focus, .disabled.task-mini-btn:focus, .btn-success[disabled]:focus, [disabled].task-btn:focus, [disabled].task-mini-btn:focus, fieldset[disabled] .btn-success:focus, fieldset[disabled] .task-btn:focus, fieldset[disabled] .task-mini-btn:focus, .btn-success.disabled.focus, .disabled.focus.task-btn, .disabled.focus.task-mini-btn, .btn-success[disabled].focus, [disabled].focus.task-btn, [disabled].focus.task-mini-btn, fieldset[disabled] .btn-success.focus, fieldset[disabled] .focus.task-btn, fieldset[disabled] .focus.task-mini-btn {
+.btn-success.disabled:hover, .disabled.task-btn:hover, .disabled.task-mini-btn:hover, .disabled.edit-btn:hover, .disabled.edit-mini-btn:hover, .btn-success[disabled]:hover, [disabled].task-btn:hover, [disabled].task-mini-btn:hover, [disabled].edit-btn:hover, [disabled].edit-mini-btn:hover, fieldset[disabled] .btn-success:hover, fieldset[disabled] .task-btn:hover, fieldset[disabled] .task-mini-btn:hover, fieldset[disabled] .edit-btn:hover, fieldset[disabled] .edit-mini-btn:hover, .btn-success.disabled:focus, .disabled.task-btn:focus, .disabled.task-mini-btn:focus, .disabled.edit-btn:focus, .disabled.edit-mini-btn:focus, .btn-success[disabled]:focus, [disabled].task-btn:focus, [disabled].task-mini-btn:focus, [disabled].edit-btn:focus, [disabled].edit-mini-btn:focus, fieldset[disabled] .btn-success:focus, fieldset[disabled] .task-btn:focus, fieldset[disabled] .task-mini-btn:focus, fieldset[disabled] .edit-btn:focus, fieldset[disabled] .edit-mini-btn:focus, .btn-success.disabled.focus, .disabled.focus.task-btn, .disabled.focus.task-mini-btn, .disabled.focus.edit-btn, .disabled.focus.edit-mini-btn, .btn-success[disabled].focus, [disabled].focus.task-btn, [disabled].focus.task-mini-btn, [disabled].focus.edit-btn, [disabled].focus.edit-mini-btn, fieldset[disabled] .btn-success.focus, fieldset[disabled] .focus.task-btn, fieldset[disabled] .focus.task-mini-btn, fieldset[disabled] .focus.edit-btn, fieldset[disabled] .focus.edit-mini-btn {
   background-color: #4caf50;
   border-color: transparent; }
 
-.btn-success .badge, .task-btn .badge, .task-mini-btn .badge {
+.btn-success .badge, .task-btn .badge, .task-mini-btn .badge, .edit-btn .badge, .edit-mini-btn .badge {
   color: #4caf50;
   background-color: #ffffff; }
 
@@ -2873,25 +2873,25 @@ a.btn.disabled, a.disabled.add-task-btn, a.disabled.task-btn, a.disabled.task-mi
   color: #e51c23;
   background-color: #ffffff; }
 
-.btn-link {
+.btn-link, .edit-btn, .edit-mini-btn {
   color: #2196f3;
   font-weight: normal;
   border-radius: 0; }
 
-.btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled], fieldset[disabled] .btn-link {
+.btn-link, .edit-btn, .edit-mini-btn, .btn-link:active, .edit-btn:active, .edit-mini-btn:active, .btn-link.active, .active.edit-btn, .active.edit-mini-btn, .btn-link[disabled], [disabled].edit-btn, [disabled].edit-mini-btn, fieldset[disabled] .btn-link, fieldset[disabled] .edit-btn, fieldset[disabled] .edit-mini-btn {
   background-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+.btn-link, .edit-btn, .edit-mini-btn, .btn-link:hover, .edit-btn:hover, .edit-mini-btn:hover, .btn-link:focus, .edit-btn:focus, .edit-mini-btn:focus, .btn-link:active, .edit-btn:active, .edit-mini-btn:active {
   border-color: transparent; }
 
-.btn-link:hover, .btn-link:focus {
+.btn-link:hover, .edit-btn:hover, .edit-mini-btn:hover, .btn-link:focus, .edit-btn:focus, .edit-mini-btn:focus {
   color: #0a6ebd;
   text-decoration: underline;
   background-color: transparent; }
 
-.btn-link[disabled]:hover, fieldset[disabled] .btn-link:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:focus {
+.btn-link[disabled]:hover, [disabled].edit-btn:hover, [disabled].edit-mini-btn:hover, fieldset[disabled] .btn-link:hover, fieldset[disabled] .edit-btn:hover, fieldset[disabled] .edit-mini-btn:hover, .btn-link[disabled]:focus, [disabled].edit-btn:focus, [disabled].edit-mini-btn:focus, fieldset[disabled] .btn-link:focus, fieldset[disabled] .edit-btn:focus, fieldset[disabled] .edit-mini-btn:focus {
   color: #bbbbbb;
   text-decoration: none; }
 
@@ -2907,7 +2907,7 @@ a.btn.disabled, a.disabled.add-task-btn, a.disabled.task-btn, a.disabled.task-mi
   line-height: 1.5;
   border-radius: 3px; }
 
-.btn-xs, .task-mini-btn, .task-completed-mini-btn, .btn-group-xs > .btn, .btn-group-xs > .add-task-btn, .btn-group-xs > .task-btn, .btn-group-xs > .task-mini-btn, .btn-group-xs > .task-completed-btn, .btn-group-xs > .task-completed-mini-btn, .btn-group-xs > .repeat-btn, .btn-group-xs > .btn-login-form {
+.btn-xs, .task-mini-btn, .edit-mini-btn, .task-completed-mini-btn, .btn-group-xs > .btn, .btn-group-xs > .add-task-btn, .btn-group-xs > .task-btn, .btn-group-xs > .task-mini-btn, .btn-group-xs > .task-completed-btn, .btn-group-xs > .task-completed-mini-btn, .btn-group-xs > .repeat-btn, .btn-group-xs > .btn-login-form {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
@@ -3157,7 +3157,7 @@ tbody.collapse.in, tbody.in#pr-navbar {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
-.btn-group.open .dropdown-toggle.btn-link {
+.btn-group.open .dropdown-toggle.btn-link, .btn-group.open .dropdown-toggle.edit-btn, .btn-group.open .dropdown-toggle.edit-mini-btn {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
@@ -3771,7 +3771,7 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > #inColor, tex
   margin-top: 17px;
   margin-bottom: 17px; }
 
-.navbar-btn.btn-xs, .navbar-btn.task-mini-btn, .navbar-btn.task-completed-mini-btn {
+.navbar-btn.btn-xs, .navbar-btn.task-mini-btn, .navbar-btn.edit-mini-btn, .navbar-btn.task-completed-mini-btn {
   margin-top: 21px;
   margin-bottom: 21px; }
 
@@ -3860,13 +3860,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > #inColor, tex
 .navbar-default .navbar-link:hover, #navbar .navbar-link:hover {
   color: #212121; }
 
-.navbar-default .btn-link, #navbar .btn-link {
+.navbar-default .btn-link, #navbar .btn-link, .navbar-default .edit-btn, #navbar .edit-btn, .navbar-default .edit-mini-btn, #navbar .edit-mini-btn {
   color: #666666; }
 
-.navbar-default .btn-link:hover, #navbar .btn-link:hover, .navbar-default .btn-link:focus, #navbar .btn-link:focus {
+.navbar-default .btn-link:hover, #navbar .btn-link:hover, .navbar-default .edit-btn:hover, #navbar .edit-btn:hover, .navbar-default .edit-mini-btn:hover, #navbar .edit-mini-btn:hover, .navbar-default .btn-link:focus, #navbar .btn-link:focus, .navbar-default .edit-btn:focus, #navbar .edit-btn:focus, .navbar-default .edit-mini-btn:focus, #navbar .edit-mini-btn:focus {
   color: #212121; }
 
-.navbar-default .btn-link[disabled]:hover, #navbar .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] #navbar .btn-link:hover, .navbar-default .btn-link[disabled]:focus, #navbar .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus, fieldset[disabled] #navbar .btn-link:focus {
+.navbar-default .btn-link[disabled]:hover, #navbar .btn-link[disabled]:hover, .navbar-default [disabled].edit-btn:hover, #navbar [disabled].edit-btn:hover, .navbar-default [disabled].edit-mini-btn:hover, #navbar [disabled].edit-mini-btn:hover, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] #navbar .btn-link:hover, fieldset[disabled] .navbar-default .edit-btn:hover, fieldset[disabled] #navbar .edit-btn:hover, fieldset[disabled] .navbar-default .edit-mini-btn:hover, fieldset[disabled] #navbar .edit-mini-btn:hover, .navbar-default .btn-link[disabled]:focus, #navbar .btn-link[disabled]:focus, .navbar-default [disabled].edit-btn:focus, #navbar [disabled].edit-btn:focus, .navbar-default [disabled].edit-mini-btn:focus, #navbar [disabled].edit-mini-btn:focus, fieldset[disabled] .navbar-default .btn-link:focus, fieldset[disabled] #navbar .btn-link:focus, fieldset[disabled] .navbar-default .edit-btn:focus, fieldset[disabled] #navbar .edit-btn:focus, fieldset[disabled] .navbar-default .edit-mini-btn:focus, fieldset[disabled] #navbar .edit-mini-btn:focus {
   color: #cccccc; }
 
 .navbar-inverse {
@@ -3941,13 +3941,13 @@ textarea.input-group-sm > .form-control, textarea.input-group-sm > #inColor, tex
 .navbar-inverse .navbar-link:hover {
   color: #ffffff; }
 
-.navbar-inverse .btn-link {
+.navbar-inverse .btn-link, .navbar-inverse .edit-btn, .navbar-inverse .edit-mini-btn {
   color: #b2dbfb; }
 
-.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+.navbar-inverse .btn-link:hover, .navbar-inverse .edit-btn:hover, .navbar-inverse .edit-mini-btn:hover, .navbar-inverse .btn-link:focus, .navbar-inverse .edit-btn:focus, .navbar-inverse .edit-mini-btn:focus {
   color: #ffffff; }
 
-.navbar-inverse .btn-link[disabled]:hover, fieldset[disabled] .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:focus {
+.navbar-inverse .btn-link[disabled]:hover, .navbar-inverse [disabled].edit-btn:hover, .navbar-inverse [disabled].edit-mini-btn:hover, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .edit-btn:hover, fieldset[disabled] .navbar-inverse .edit-mini-btn:hover, .navbar-inverse .btn-link[disabled]:focus, .navbar-inverse [disabled].edit-btn:focus, .navbar-inverse [disabled].edit-mini-btn:focus, fieldset[disabled] .navbar-inverse .btn-link:focus, fieldset[disabled] .navbar-inverse .edit-btn:focus, fieldset[disabled] .navbar-inverse .edit-mini-btn:focus {
   color: #444444; }
 
 .breadcrumb {
@@ -4154,7 +4154,7 @@ a.label:hover, a.label:focus {
   position: relative;
   top: -1px; }
 
-.btn-xs .badge, .task-mini-btn .badge, .task-completed-mini-btn .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .add-task-btn .badge, .btn-group-xs > .task-btn .badge, .btn-group-xs > .task-mini-btn .badge, .btn-group-xs > .task-completed-btn .badge, .btn-group-xs > .task-completed-mini-btn .badge, .btn-group-xs > .repeat-btn .badge, .btn-group-xs > .btn-login-form .badge {
+.btn-xs .badge, .task-mini-btn .badge, .edit-mini-btn .badge, .task-completed-mini-btn .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .add-task-btn .badge, .btn-group-xs > .task-btn .badge, .btn-group-xs > .task-mini-btn .badge, .btn-group-xs > .task-completed-btn .badge, .btn-group-xs > .task-completed-mini-btn .badge, .btn-group-xs > .repeat-btn .badge, .btn-group-xs > .btn-login-form .badge {
   top: 0;
   padding: 1px 5px; }
 
@@ -5710,18 +5710,18 @@ button.close {
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
 
-.btn-success, .task-btn, .task-mini-btn {
+.btn-success, .task-btn, .task-mini-btn, .edit-btn, .edit-mini-btn {
   -webkit-background-size: 200% 200%;
   background-size: 200% 200%;
   background-position: 50%; }
 
-.btn-success:focus, .task-btn:focus, .task-mini-btn:focus {
+.btn-success:focus, .task-btn:focus, .task-mini-btn:focus, .edit-btn:focus, .edit-mini-btn:focus {
   background-color: #4caf50; }
 
-.btn-success:hover, .task-btn:hover, .task-mini-btn:hover, .btn-success:active:hover, .task-btn:active:hover, .task-mini-btn:active:hover {
+.btn-success:hover, .task-btn:hover, .task-mini-btn:hover, .edit-btn:hover, .edit-mini-btn:hover, .btn-success:active:hover, .task-btn:active:hover, .task-mini-btn:active:hover, .edit-btn:active:hover, .edit-mini-btn:active:hover {
   background-color: #439a46; }
 
-.btn-success:active, .task-btn:active, .task-mini-btn:active {
+.btn-success:active, .task-btn:active, .task-mini-btn:active, .edit-btn:active, .edit-mini-btn:active {
   background-color: #39843c;
   background-image: -webkit-radial-gradient(circle, #39843c 10%, #4caf50 11%);
   background-image: -o-radial-gradient(circle, #39843c 10%, #4caf50 11%);
@@ -5798,18 +5798,18 @@ button.close {
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); }
 
-.btn-link {
+.btn-link, .edit-btn, .edit-mini-btn {
   -webkit-background-size: 200% 200%;
   background-size: 200% 200%;
   background-position: 50%; }
 
-.btn-link:focus {
+.btn-link:focus, .edit-btn:focus, .edit-mini-btn:focus {
   background-color: #ffffff; }
 
-.btn-link:hover, .btn-link:active:hover {
+.btn-link:hover, .edit-btn:hover, .edit-mini-btn:hover, .btn-link:active:hover, .edit-btn:active:hover, .edit-mini-btn:active:hover {
   background-color: #f0f0f0; }
 
-.btn-link:active {
+.btn-link:active, .edit-btn:active, .edit-mini-btn:active {
   background-color: #e0e0e0;
   background-image: -webkit-radial-gradient(circle, #e0e0e0 10%, #fff 11%);
   background-image: -o-radial-gradient(circle, #e0e0e0 10%, #fff 11%);
@@ -5829,13 +5829,13 @@ button.close {
   -o-transition: all 0.4s;
   transition: all 0.4s; }
 
-.btn-link {
+.btn-link, .edit-btn, .edit-mini-btn {
   border-radius: 3px;
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #444444; }
 
-.btn-link:hover, .btn-link:focus {
+.btn-link:hover, .edit-btn:hover, .edit-mini-btn:hover, .btn-link:focus, .edit-btn:focus, .edit-mini-btn:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   color: #444444;
