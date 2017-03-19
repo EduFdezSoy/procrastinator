@@ -119,7 +119,7 @@ class Dowithtask extends CI_Controller {
 		}
 
 		// asign data to vars
-		$all_edit	= 1
+		$all_edit	= 1;
 		$task_id	= $this->input->post('id');
 		$task		= $this->input->post('task');
 		$task_color	= $this->input->post('color');
