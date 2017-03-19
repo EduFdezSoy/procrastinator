@@ -87,7 +87,6 @@ class Dowithtask_model extends CI_Model
 		$data = array(
 			'task'		=> $task,
 			'tab_id'	=> $tab,
-			'date'		=> $timedate,
 			'colour'	=> $color
 		);
 		$this->db->where('id', $id);
