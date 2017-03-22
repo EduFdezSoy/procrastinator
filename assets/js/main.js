@@ -116,7 +116,7 @@ function coge_id(element) {
 
 
 // script que oculta los elementos de id mensaje a los 3 segundos
-setTimeout("document.getElementById(\"mensaje\").style.display = \"none\"", 3000);
+// setTimeout("document.getElementById(\"mensaje\").style.display = \"none\"", 3000);
 
 // este script solo te deja meter numeros en un input donde metas onkeypress="return valida(event)"
 function writenum(e) {
