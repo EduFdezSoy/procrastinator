@@ -41,8 +41,8 @@ function colorGen() {
     for (var i = 0; i < 6; i++)
         text += charset.charAt(Math.floor(Math.random() * charset.length));
 
-    document.getElementById("inColor")..value = text;
-    document.getElementById("inColor2")..value = text;
+    document.getElementById("inColor").value = text;
+    document.getElementById("inColor2").value = text;
 }
 
 // clear textarea from the form when closed
@@ -85,7 +85,6 @@ function catchAll(id) {
     // add data to the form
     document.getElementById("addtasktextarea").value = task;
     document.getElementById("inColor2").setAttribute("value", color);
-
 }
 
 
