@@ -25,7 +25,7 @@
                 </div>
                 <div class="taks-btn-div">
                     <a href="dowithtask/complete/<?=$task->id?>" class="task-btn">Complete</a>
-                    <button type="button" class="edit-btn" data-toggle="modal" data-target="#editTask" onclick="catchAll(<?=$task->id?>)">Edit</button>
+                    <button type="button" class="edit-btn" data-toggle="modal" data-target="#editTask" onclick="catchAll('<?=$task->id?>')">Edit</button>
                 </div>
             </div>
         </div> <!-- Task container -->
