@@ -79,7 +79,7 @@ function catchAll(id) {
     // catch the task things to paste into the form
     var taskContainer = document.getElementById(id);
 
-    var task = taskContainer.document.getElementById('task-text').innerHTML;
+    var task = taskContainer.getElementById('task-text').innerHTML;
     var color = taskContainer.getElementById('task-color').getAttribute('data-color');
 
     // paste data into the form
