@@ -41,12 +41,14 @@ function colorGen() {
     for (var i = 0; i < 6; i++)
         text += charset.charAt(Math.floor(Math.random() * charset.length));
 
-    document.getElementById("inColor").setAttribute("value", text);
+    document.getElementById("inColor")..value = text;
+    document.getElementById("inColor2")..value = text;
 }
 
 // clear textarea from the form when closed
 function eraseText() {
     document.getElementById("addtasktextarea").value = "";
+    document.getElementById("edittasktextarea").value = "";
 }
 
 // copy tab id and paste in the form (to make the first form tab visible always be the selected)
@@ -77,13 +79,13 @@ function catchAll(id) {
     var taskContainer = document.getElementById(id);
 
     var task = document.getElementById("task".id).innerHTML;
-    var color = taskContainer;
+    var color = taskContainer.getElementById("task-color").getAttribute("data-color");
     var userId = taskContainer;
 
     // add data to the form
-    document.getElementById(
-        document.getElementById("inColor").setAttribute("value", color)
-    )
+    document.getElementById("addtasktextarea").value = task;
+    document.getElementById("inColor2").setAttribute("value", color);
+
 }
 
 
