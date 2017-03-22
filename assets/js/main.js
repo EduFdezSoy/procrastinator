@@ -79,13 +79,13 @@ function catchAll(id) {
     // catch the task things to paste into the form
     var taskContainer = document.getElementById(id);
 
-    var task = taskContainer.getElementById('task-text').innerHTML;
+    var task = document.getElementById(id).getElementById('task-text').innerHTML;
     var color = taskContainer.getElementById('task-color').getAttribute('data-color');
 
     // paste data into the form
     document.getElementById('edit-id').value = id;
     document.getElementById('addtasktextarea').value = task;
-    document.getElementById('inColor2').setAttribute('value', color);
+    document.getElementById('inColor2').value = color;
 }
 
 
