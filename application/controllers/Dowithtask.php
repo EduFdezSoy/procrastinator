@@ -124,7 +124,7 @@ class Dowithtask extends CI_Controller {
 		$task		= $this->input->post('task');
 		$task_color	= $this->input->post('color');
 		$task_tab	= $this->input->post('tab');
-		$task_user	= $this->input->post('user');
+
 		// catch the current user id
 		$edit_user = isset($edit_user) ? $edit_user : $this->session->userdata('user_id');
 

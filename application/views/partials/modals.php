@@ -67,6 +67,7 @@
       <div class="modal-body">
       <!-- form -->
         <form id="edittaskform" action="dowithtask/edit" method="POST" name="editform" class="form-horizontal" role="form">
+            <input type="hidden" id="edit-id" name="id" value="">
             <textarea id="edittasktextarea" rows="3" class="form-control" placeholder="task to do and blah, blah..." name="task" required autofocus autocomplete="off"></textarea>
             <div class="form-group">
                 <label class="col-xs-push-2 col-xs-2 control-label">Tab</label>

@@ -25,7 +25,7 @@ class Dowithtask_model extends CI_Model
 		$timedate = date ('Y\-m\-d G\-i\-s');
 
 		// remove the # from the color code
-		$color = str_replace("#", "", $color);
+		$color = str_replace('#', '', $color);
 
 		// add the new task into table
 		$data = array(
@@ -81,7 +81,7 @@ class Dowithtask_model extends CI_Model
 	public function edit_task($id, $task, $tab, $color)
 	{
 		// remove the # from the color code
-		$color = str_replace("#", "", $color);
+		$color = str_replace('#', '', $color);
 
 		// edit the task from the table
 		$data = array(

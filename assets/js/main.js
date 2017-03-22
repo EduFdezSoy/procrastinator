@@ -35,26 +35,27 @@ for (var i = 0; i < elems.length; i++)
 
 // generate a random color for the "add task" modal
 function colorGen() {
-    var text = "#";
-    var charset = "ABCDEF0123456789";
+    var text = '#';
+    var charset = 'ABCDEF0123456789';
 
     for (var i = 0; i < 6; i++)
         text += charset.charAt(Math.floor(Math.random() * charset.length));
 
-    document.getElementById("inColor").value = text;
-    document.getElementById("inColor2").value = text;
+    document.getElementById('inColor').value = text;
+    document.getElementById('inColor2').value = text;
 }
 
 // clear textarea from the form when closed
 function eraseText() {
-    document.getElementById("addtasktextarea").value = "";
-    document.getElementById("edittasktextarea").value = "";
+    document.getElementById('addtasktextarea').value = '';
+    document.getElementById('edittasktextarea').value = '';
+    document.getElementById('edit-id').value = '';
 }
 
 // copy tab id and paste in the form (to make the first form tab visible always be the selected)
 function catch_tab(tab_id) {
-    document.getElementById("tabselect").value = tab_id;
-    document.getElementById("tabselect2").value = tab_id;
+    document.getElementById('tabselect').value = tab_id;
+    document.getElementById('tabselect2').value = tab_id;
 }
 
 // send add task form
@@ -75,16 +76,16 @@ $('#addtaskform').submit(function(ev) {
 
 // copy task data to edit it in the form
 function catchAll(id) {
-    // catch the task to edit
+    // catch the task things to paste into the form
     var taskContainer = document.getElementById(id);
 
-    var task = document.getElementById("task".id).innerHTML;
-    var color = taskContainer.getElementById("task-color").getAttribute("data-color");
-    var userId = taskContainer;
+    var task = taskContainer.document.getElementById('task-text').innerHTML;
+    var color = taskContainer.getElementById('task-color').getAttribute('data-color');
 
-    // add data to the form
-    document.getElementById("addtasktextarea").value = task;
-    document.getElementById("inColor2").setAttribute("value", color);
+    // paste data into the form
+    document.getElementById('edit-id').value = id;
+    document.getElementById('addtasktextarea').value = task;
+    document.getElementById('inColor2').setAttribute('value', color);
 }
 
 
@@ -95,7 +96,7 @@ function coge_id(element) {
     // con el id pilla la tarea con ese name
     var tarea = document.getElementsByName(tarea_id)[0].innerHTML;
     // todo esto es na mas que para el color
-    var color_element = document.getElementById(tarea_id).getElementsByClassName("col-xs-2")[0];
+    var color_element = document.getElementById(tarea_id).getElementsByClassName('col-xs-2')[0];
     style = window.getComputedStyle(color_element),
         tarea_color = style.getPropertyValue('background-color');
     // coge el id de la categoria y la recorta para que sea solo el numero (id de la categoria)

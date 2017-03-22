@@ -12,7 +12,7 @@
             <!-- Top, task -->
             <div class="task-top">
                 <span id="task-color" data-color="<?=$task->colour?>" class="task-icon" style="color: #<?=$task->colour?>"></span>
-                <span id="task<?=$task->id?>" class="task-text"><?=$task->task?></span>
+                <span id="task-text" class="task-text"><?=$task->task?></span>
             </div>
             <!-- Bottom, task date, button.. -->
             <div class="task-bot">
