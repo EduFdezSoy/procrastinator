@@ -3,6 +3,7 @@
 ?>
 
 <script>
+// create baseurl global var to use in .js
 var baseurl = <?=base_url()?>;
 // Initialice and define tab to the ajax call
 var tab = 1;
