@@ -70,8 +70,6 @@ class Dowithtask extends CI_Controller {
 			$user
 		);
 
-		// now, redirect to main page
-		redirect('/procrastinator');
 	}
 
 	public function undo()
