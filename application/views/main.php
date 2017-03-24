@@ -3,6 +3,7 @@
 ?>
 
 <script>
+var baseurl = <?=base_url()?>;
 // Initialice and define tab to the ajax call
 var tab = 1;
 // Ajax request function
