@@ -34,7 +34,7 @@ function completeTask(n) {
             console.log("Complete task: OK");
         }
     };
-    xmlhttp.open("GET", "<?=base_url()?>dowithtask/complete/" + tid, true);
+    xmlhttp.open("GET", "/dowithtask/complete/" + tid, true);
     xmlhttp.send();
 
     // Update task list in time and restart auto-updater
