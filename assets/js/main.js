@@ -16,6 +16,32 @@ function tabNum(n) {
     ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
 }
 
+// complete a task using AJAX
+function completeTask(n) {
+    var tid = n;
+    clearInterval(ajaxInterval); // stop making calls
+
+    // do the XMLHttpRequest
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5 (someone still using them?)
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log("Complete task: OK");
+        }
+    };
+    xmlhttp.open("GET", "<?=base_url()?>dowithtask/complete/" + tid, true);
+    xmlhttp.send();
+
+    // Update task list in time and restart auto-updater
+    ajaxCall();
+    ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+}
+
 // change .active clas from tabs
 var selector, elems, makeActive;
 
