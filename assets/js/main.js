@@ -5,15 +5,17 @@
  *
  */
 
+// 10 seconds to the ajax periodic call (its below)
+var timer = 10000;
 // Ajax periodic calls (ajax function is in views/main.php)
-var ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+var ajaxInterval = setInterval(ajaxCall, timer);
 
 // change a var value for AJAX call
 function tabNum(n) {
     clearInterval(ajaxInterval); // stop making calls
     window.tab = n;
     ajaxCall();
-    ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+    ajaxInterval = setInterval(ajaxCall, timer);
 }
 
 // complete a task using AJAX
@@ -39,7 +41,7 @@ function completeTask(n) {
 
     // Update task list in time and restart auto-updater
     ajaxCall();
-    ajaxInterval = setInterval(ajaxCall, 10000); // Time: 10s
+    ajaxInterval = setInterval(ajaxCall, timer);
 }
 
 // change .active clas from tabs
