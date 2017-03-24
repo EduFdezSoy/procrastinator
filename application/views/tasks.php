@@ -20,11 +20,11 @@
                     By <span title="<?=$task->first_name?> <?=$task->last_name?>"><b><?=$task->username?></b></span> on <?=$date?>
                 </div>
                 <div class="taks-btn-xs">
-                    <button type="button" class="task-mini-btn" onclick="completeTask(<?=$task->id?>)">Complete</button>
+                    <button type="button" class="task-mini-btn" onclick="completeTask('<?=$task->id?>')">Complete</button>
                     <button type="button" class="edit-mini-btn" data-toggle="modal" data-target="#editTask" onclick="catchAll(<?=$task->id?>)">Edit</button>
                 </div>
                 <div class="taks-btn-div">
-                    <button type="button" class="task-btn" onclick="completeTask(<?=$task->id?>)">Complete</button>
+                    <button type="button" class="task-btn" onclick="completeTask('<?=$task->id?>')">Complete</button>
                     <button type="button" class="edit-btn" data-toggle="modal" data-target="#editTask" onclick="catchAll('<?=$task->id?>')">Edit</button>
                 </div>
             </div>
