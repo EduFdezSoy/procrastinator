@@ -23,10 +23,10 @@
                     Completed by <span title="<?=$task->u2first_name?> <?=$task->u2last_name?>"><b><?=$task->u2username?></b></span> on <?=$c_date?>
                 </div>
                 <div class="taks-btn-xs">
-                    <a href="dowithtask/undo/<?=$task->id?>" class="task-completed-mini-btn">Undo</a>
+                    <button type="button" class="task-completed-mini-btn" onclick="undoTask('<?=$task->id?>')">Undo</button>
                 </div>
                 <div class="taks-btn-div">
-                    <a href="dowithtask/undo/<?=$task->id?>" class="task-completed-btn">Undo</a>
+                    <button type="button" class="task-completed-btn" onclick="undoTask('<?=$task->id?>')">Undo</button>
                 </div>
             </div>
         </div> <!-- Task container -->

@@ -44,6 +44,32 @@ function completeTask(n) {
     ajaxInterval = setInterval(ajaxCall, timer);
 }
 
+// undo a completed task using AJAX
+function undoeTask(n) {
+    var tid = n;
+    clearInterval(ajaxInterval); // stop making calls
+
+    // do the XMLHttpRequest
+    if (window.XMLHttpRequest) {
+        // code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp = new XMLHttpRequest();
+    } else {
+        // code for IE6, IE5 (someone still using them?)
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log("Undo task: OK");
+        }
+    };
+    xmlhttp.open("GET", baseurl + "dowithtask/undo/" + tid, true);
+    xmlhttp.send();
+
+    // Update task list in time and restart auto-updater
+    ajaxCall();
+    ajaxInterval = setInterval(ajaxCall, timer);
+}
+
 // change .active clas from tabs
 var selector, elems, makeActive;
 
@@ -136,6 +162,8 @@ function coge_id(element) {
     document.getElementById("JScoge_color").style.backgroundColor = tarea_color;
     document.getElementById("JScoge_cat").children[0].children[categoria_id - 1].setAttribute("selected", "selected");
 }
+
+
 
 
 

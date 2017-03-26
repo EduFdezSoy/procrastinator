@@ -70,6 +70,9 @@ class Dowithtask extends CI_Controller {
 			$user
 		);
 
+		// show OK message
+		echo 'OK';
+
 	}
 
 	public function undo()
@@ -97,8 +100,9 @@ class Dowithtask extends CI_Controller {
 			$task_id
 		);
 
-		// now, redirect to main page
-		redirect('/procrastinator');
+		// show OK message
+		echo 'OK';
+
 	}
 
 	public function edit()
