@@ -45,7 +45,7 @@ function completeTask(n) {
 }
 
 // undo a completed task using AJAX
-function undoeTask(n) {
+function undoTask(n) {
     var tid = n;
     clearInterval(ajaxInterval); // stop making calls
 
