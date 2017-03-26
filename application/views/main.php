@@ -5,8 +5,10 @@
 <script>
 // create baseurl global var to use in .js
 var baseurl = "<?=base_url()?>";
+
 // Initialice and define tab to the ajax call
 var tab = 1;
+
 // Ajax request function
 function ajaxCall()
 {
@@ -29,6 +31,7 @@ function ajaxCall()
     xmlhttp.open("GET","<?=base_url()?>prajax/tasks/"+num,true);
     xmlhttp.send();
 }
+
 // Ajax call
 ajaxCall();
 // Ajax periodic calls and tab function are in main.js
