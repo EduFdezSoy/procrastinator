@@ -31,6 +31,7 @@ Esta aplicación ha sido desarrollada por <a href="https://twitter.com/EduFdezSo
 17- Añadir calendario, check-box para mostrar/ocultar tareas + Eventos independientes a las tareas  
 18- Añadir tiempo empleado en realizar una tarea  
 19- Añadir animaciones CSS de entrada de tareas y salida asi como otras animaciones en los menus  
+20- Optimizar llamadas AJAX, no enviar tareas si no hay cambios (mandar 304 - not modified)  
 
 ## Base de Datos
 <a href="http://imgur.com/vw60H6q"><img src="http://i.imgur.com/vw60H6q.png" title="source: imgur.com" /></a>
