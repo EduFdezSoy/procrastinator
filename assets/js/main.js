@@ -122,6 +122,7 @@ $('#addtaskform').submit(function(ev) {
             ajaxCall();
             $('#addTask').modal('hide');
             eraseText();
+            console.log("Add task: OK");
         }
     });
 
