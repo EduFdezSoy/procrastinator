@@ -1,4 +1,6 @@
 # Procrastinator - WORK IN PROGRESS
+[![GitHub issues](https://img.shields.io/github/issues/EduFdezSoy/procrastinator.svg)](https://github.com/EduFdezSoy/procrastinator/issues) [![GitHub forks](https://img.shields.io/github/forks/EduFdezSoy/procrastinator.svg)](https://github.com/EduFdezSoy/procrastinator/network) [![GitHub stars](https://img.shields.io/github/stars/EduFdezSoy/procrastinator.svg)](https://github.com/EduFdezSoy/procrastinator/stargazers) [![GitHub license](https://img.shields.io/github/license/EduFdezSoy/procrastinator.svg)](https://github.com/EduFdezSoy/procrastinator/blob/master/LICENSE)
+  
 <b>Procrastinator</b> es una aplicación web autoalojable para gestionar listas de tareas y actividades por hacer.  
 Permite llevar un registro de tareas pendientes y realizadas, con soporte multiusuario, y clasificadas según categorías que los usuarios puede crear y gestionar.  
 Las tareas se pueden programar como atemporales, programadas, y como periódicas; y se pueden visualizar en formato de lista, en calendario, o como diario.  
